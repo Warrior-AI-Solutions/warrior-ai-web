@@ -54,6 +54,11 @@
     <section class="wai-section">
       <h2 class="wai-section-title">Full Request Flow</h2>
       <p class="wai-section-sub">One coaching session, end to end. Total request lifetime: 3–17 seconds.</p>
+      <img
+        src="/images/warrior-ai-request-lifecycle.webp"
+        alt="Request Lifecycle — Flutter to Firebase, end to end"
+        class="wai-section-image"
+      />
       <div class="wai-flow">
         <div class="wai-flow-step">
           <div class="wai-flow-icon">📱</div>
@@ -205,6 +210,11 @@
     <section class="wai-section">
       <h2 class="wai-section-title">7 Specialist Agents</h2>
       <p class="wai-section-sub">The Coordinator routes each Warrior message to the right specialist. 80% routing accuracy target (≥8/10 messages). LLM providers distributed across OpenRouter to manage rate limits.</p>
+      <img
+        src="/images/warrior-ai-agent-constellation.webp"
+        alt="7 Specialist Agents — Coordinator constellation"
+        class="wai-section-image"
+      />
       <div class="wai-agents-grid">
         <div class="wai-agent-card">
           <div class="wai-agent-icon">🎯</div>

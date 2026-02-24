@@ -108,6 +108,11 @@
     <section class="wai-section wai-section-alt">
       <h2 class="wai-section-title">Critical Findings Summary</h2>
       <p class="wai-section-sub">10 findings from the three-report audit. Two resolved at launch. Eight require implementation before production go-live.</p>
+      <img
+        src="/images/warrior-ai-security-radar.webp"
+        alt="Security Radar — findings mapped by severity"
+        class="wai-section-image"
+      />
       <div class="wai-table-wrap">
         <table class="wai-table">
           <thead><tr><th>ID</th><th>Finding</th><th>Severity</th><th>Section</th><th>JIRA</th></tr></thead>

@@ -18,6 +18,11 @@
         <span class="wai-badge wai-badge-blue">☁ Firebase-Authenticated</span>
         <span class="wai-badge wai-badge-gold">🔒 Warrior-Owned Infrastructure</span>
       </div>
+      <img
+        src="/images/warrior-ai-hero-banner.webp"
+        alt="Warrior AI — Production-Ready Platform"
+        class="wai-section-image-hero"
+      />
     </section>
 
     <!-- METRICS STRIP -->
@@ -98,6 +103,11 @@
             <span class="wai-arch-layer-status status-live">Staging Active</span>
           </div>
         </div>
+        <img
+          src="/images/warrior-ai-architecture-flow.webp"
+          alt="5-Layer Architecture Data Flow"
+          class="wai-section-image"
+        />
         <div class="wai-quote">
           <p>"The Firebase JWT is validated at the Gateway and discarded. The Dify engine receives only a user ID — never a token. The Bridge is physically unreachable from the internet."</p>
           <cite>— Security model by design (DL-013)</cite>
@@ -278,6 +288,11 @@
             </div>
           </div>
         </div>
+        <img
+          src="/images/warrior-ai-scaling-roadmap.webp"
+          alt="Warrior AI Scaling Roadmap — Stage 0 to 10,000 Warriors"
+          class="wai-section-image"
+        />
         <div style="margin-top: 48px;">
           <p class="wai-section-label">LLM Cost vs. Revenue at Scale</p>
           <table class="wai-cost-table">

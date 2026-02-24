@@ -110,6 +110,11 @@
     <!-- SECTION 3: TEST PYRAMID -->
     <section class="wai-section">
       <h2 class="wai-section-title">Testing Pyramid</h2>
+      <img
+        src="/images/warrior-ai-test-pyramid.webp"
+        alt="QA Testing Pyramid — Unit, Integration, E2E"
+        class="wai-section-image"
+      />
       <div class="wai-pyramid-wrap">
         <div class="wai-pyramid">
           <div class="wai-pyramid-tier wai-tier-top">
