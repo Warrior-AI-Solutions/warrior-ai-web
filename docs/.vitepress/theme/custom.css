@@ -1,0 +1,917 @@
+/* ============================================================
+   WARRIOR AI SOLUTIONS — Brand CSS
+   Navy + Gold. Dark mode first. Fire and authority.
+   ============================================================ */
+
+/* --- Google Fonts Variables --- */
+:root {
+  --font-primary: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --font-statement: 'Playfair Display', Georgia, serif;
+
+  /* Warrior Navy */
+  --wai-navy-deep: #0A1628;
+  --wai-navy-primary: #1B2A4A;
+  --wai-navy-light: #2C3E6B;
+
+  /* Warrior Gold */
+  --wai-gold-primary: #C8A84E;
+  --wai-gold-light: #D4B96A;
+  --wai-gold-deep: #A08838;
+
+  /* Forge White */
+  --wai-white-warm: #F5F0E8;
+  --wai-white-pure: #FFFFFF;
+
+  /* Steel Gray */
+  --wai-gray-light: #9CA3AF;
+  --wai-gray-medium: #6B7280;
+  --wai-gray-dark: #374151;
+
+  /* Semantic */
+  --wai-red: #DC2626;
+  --wai-green: #059669;
+  --wai-amber: #D97706;
+
+  /* Core 4 */
+  --wai-body: #3B82F6;
+  --wai-being: #8B5CF6;
+  --wai-balance: #10B981;
+  --wai-business: #F59E0B;
+
+  /* VitePress overrides */
+  --vp-c-brand-1: var(--wai-gold-primary);
+  --vp-c-brand-2: var(--wai-gold-light);
+  --vp-c-brand-3: var(--wai-gold-deep);
+  --vp-c-bg: var(--wai-navy-deep);
+  --vp-c-bg-soft: var(--wai-navy-primary);
+  --vp-c-bg-mute: var(--wai-navy-light);
+  --vp-c-text-1: var(--wai-white-warm);
+  --vp-c-text-2: var(--wai-gray-light);
+  --vp-c-divider: var(--wai-navy-light);
+  --vp-nav-bg-color: var(--wai-navy-primary);
+  --vp-font-family-base: var(--font-primary);
+  --vp-font-family-mono: var(--font-mono);
+}
+
+/* --- Base Resets --- */
+html {
+  font-family: var(--font-primary);
+}
+
+body {
+  background-color: var(--wai-navy-deep) !important;
+  color: var(--wai-white-warm);
+}
+
+/* --- Navigation --- */
+.VPNav {
+  background-color: var(--wai-navy-primary) !important;
+  border-bottom: 1px solid var(--wai-navy-light) !important;
+}
+
+.VPNavBar {
+  background-color: var(--wai-navy-primary) !important;
+}
+
+.VPNavBarTitle .title {
+  color: var(--wai-gold-primary) !important;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.VPNavBarMenu .VPNavBarMenuLink {
+  color: var(--wai-white-warm) !important;
+}
+
+.VPNavBarMenu .VPNavBarMenuLink:hover {
+  color: var(--wai-gold-primary) !important;
+}
+
+/* --- Footer --- */
+.VPFooter {
+  background-color: var(--wai-navy-primary) !important;
+  border-top: 1px solid var(--wai-navy-light) !important;
+  color: var(--wai-gray-medium) !important;
+}
+
+/* ============================================================
+   LANDING PAGE LAYOUT
+   ============================================================ */
+
+.wai-page {
+  font-family: var(--font-primary);
+  background-color: var(--wai-navy-deep);
+  color: var(--wai-white-warm);
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* --- Hero Section --- */
+.wai-hero {
+  background: linear-gradient(135deg, var(--wai-navy-deep) 0%, var(--wai-navy-primary) 100%);
+  padding: 80px 24px 64px;
+  text-align: center;
+  border-bottom: 1px solid var(--wai-navy-light);
+  position: relative;
+  overflow: hidden;
+}
+
+.wai-hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(200, 168, 78, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.wai-hero-eyebrow {
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--wai-gold-primary);
+  margin-bottom: 16px;
+}
+
+.wai-hero-headline {
+  font-family: var(--font-statement);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--wai-white-pure);
+  margin: 0 0 24px;
+}
+
+.wai-hero-headline span {
+  color: var(--wai-gold-primary);
+}
+
+.wai-hero-sub {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 400;
+  color: var(--wai-white-warm);
+  max-width: 640px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.wai-hero-badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.wai-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.wai-badge-green {
+  background: rgba(5, 150, 105, 0.15);
+  border: 1px solid rgba(5, 150, 105, 0.4);
+  color: #34D399;
+}
+
+.wai-badge-gold {
+  background: rgba(200, 168, 78, 0.12);
+  border: 1px solid rgba(200, 168, 78, 0.35);
+  color: var(--wai-gold-light);
+}
+
+.wai-badge-blue {
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  color: #93C5FD;
+}
+
+/* --- Metric Strip --- */
+.wai-metrics {
+  background-color: var(--wai-navy-primary);
+  border-bottom: 1px solid var(--wai-navy-light);
+  padding: 32px 24px;
+}
+
+.wai-metrics-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 24px;
+  text-align: center;
+}
+
+.wai-metric-value {
+  font-family: var(--font-mono);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 500;
+  color: var(--wai-gold-primary);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.wai-metric-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--wai-gray-light);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* --- Section Containers --- */
+.wai-section {
+  padding: 72px 24px;
+  border-bottom: 1px solid var(--wai-navy-light);
+}
+
+.wai-section-alt {
+  background-color: var(--wai-navy-primary);
+}
+
+.wai-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wai-section-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--wai-gold-primary);
+  margin-bottom: 12px;
+}
+
+.wai-section-title {
+  font-family: var(--font-primary);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 700;
+  color: var(--wai-white-pure);
+  margin: 0 0 12px;
+  line-height: 1.25;
+}
+
+.wai-section-subtitle {
+  font-size: 1rem;
+  color: var(--wai-gray-light);
+  max-width: 600px;
+  line-height: 1.65;
+  margin: 0 0 48px;
+}
+
+/* --- Architecture Layers --- */
+.wai-arch-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 720px;
+}
+
+.wai-arch-layer {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background: var(--wai-navy-primary);
+  border: 1px solid var(--wai-navy-light);
+  border-radius: 8px;
+  border-left: 3px solid var(--wai-navy-light);
+  transition: border-left-color 0.2s;
+}
+
+.wai-arch-layer:hover {
+  border-left-color: var(--wai-gold-primary);
+}
+
+.wai-arch-layer-num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--wai-gray-medium);
+  font-weight: 500;
+  min-width: 24px;
+}
+
+.wai-arch-layer-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--wai-white-pure);
+}
+
+.wai-arch-layer-detail {
+  font-size: 0.8rem;
+  color: var(--wai-gray-light);
+  margin-top: 2px;
+}
+
+.wai-arch-layer-status {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.status-live {
+  background: rgba(5, 150, 105, 0.15);
+  border: 1px solid rgba(5, 150, 105, 0.4);
+  color: #34D399;
+}
+
+.status-planned {
+  background: rgba(200, 168, 78, 0.1);
+  border: 1px solid rgba(200, 168, 78, 0.3);
+  color: var(--wai-gold-light);
+}
+
+/* --- QA Pillars Grid --- */
+.wai-pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-bottom: 0;
+}
+
+.wai-pillar-card {
+  background: var(--wai-navy-primary);
+  border: 1px solid var(--wai-navy-light);
+  border-top: 3px solid var(--wai-gold-primary);
+  border-radius: 8px;
+  padding: 28px;
+}
+
+.wai-pillar-icon {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.wai-pillar-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--wai-white-pure);
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.wai-pillar-desc {
+  font-size: 0.9rem;
+  color: var(--wai-gray-light);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.wai-pillar-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wai-pillar-stat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: var(--wai-white-warm);
+}
+
+.wai-pillar-stat-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--wai-gold-primary);
+  flex-shrink: 0;
+}
+
+/* --- Security Status Table --- */
+.wai-security-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  border: 1px solid var(--wai-navy-light);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.wai-sec-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 20px;
+  background: var(--wai-navy-primary);
+  border-bottom: 1px solid var(--wai-navy-light);
+}
+
+.wai-sec-row:last-child {
+  border-bottom: none;
+}
+
+.wai-sec-row:hover {
+  background: var(--wai-navy-light);
+}
+
+.wai-sec-item {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--wai-white-warm);
+}
+
+.wai-sec-ticket {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--wai-gray-medium);
+  white-space: nowrap;
+}
+
+.wai-sec-status {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 12px;
+  border-radius: 20px;
+  white-space: nowrap;
+  letter-spacing: 0.04em;
+}
+
+.sec-fixed {
+  background: rgba(5, 150, 105, 0.15);
+  border: 1px solid rgba(5, 150, 105, 0.4);
+  color: #34D399;
+}
+
+.sec-design {
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  color: #93C5FD;
+}
+
+.sec-pending {
+  background: rgba(217, 119, 6, 0.12);
+  border: 1px solid rgba(217, 119, 6, 0.35);
+  color: #FCD34D;
+}
+
+.sec-planned {
+  background: rgba(139, 92, 246, 0.12);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  color: #C4B5FD;
+}
+
+/* --- Scaling Roadmap --- */
+.wai-stages {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+}
+
+.wai-stages::before {
+  content: '';
+  position: absolute;
+  left: 28px;
+  top: 32px;
+  bottom: 32px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--wai-gold-primary), var(--wai-navy-light));
+}
+
+.wai-stage {
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  gap: 20px;
+  align-items: start;
+  padding: 24px 0;
+  position: relative;
+}
+
+.wai-stage + .wai-stage {
+  border-top: 1px solid var(--wai-navy-light);
+}
+
+.wai-stage-num {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--wai-navy-primary);
+  border: 2px solid var(--wai-navy-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--wai-gray-medium);
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+.wai-stage.active .wai-stage-num {
+  background: var(--wai-gold-deep);
+  border-color: var(--wai-gold-primary);
+  color: var(--wai-navy-deep);
+  font-weight: 700;
+}
+
+.wai-stage-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--wai-white-pure);
+  margin: 0 0 4px;
+}
+
+.wai-stage-target {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--wai-gold-primary);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.wai-stage-desc {
+  font-size: 0.875rem;
+  color: var(--wai-gray-light);
+  line-height: 1.6;
+}
+
+.wai-stage-cost {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.wai-stage-cost-amount {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--wai-white-pure);
+  display: block;
+}
+
+.wai-stage-cost-label {
+  font-size: 11px;
+  color: var(--wai-gray-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* --- Checklist Section --- */
+.wai-checklist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+}
+
+.wai-checklist-group {
+  background: var(--wai-navy-primary);
+  border: 1px solid var(--wai-navy-light);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.wai-checklist-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--wai-navy-light);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wai-checklist-header-icon {
+  font-size: 1.1rem;
+}
+
+.wai-checklist-header-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--wai-white-pure);
+}
+
+.wai-checklist-header-count {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--wai-gray-medium);
+}
+
+.wai-checklist-header.gate-demo {
+  background: rgba(200, 168, 78, 0.08);
+  border-bottom-color: rgba(200, 168, 78, 0.2);
+}
+
+.wai-checklist-header.gate-beta {
+  background: rgba(59, 130, 246, 0.06);
+  border-bottom-color: rgba(59, 130, 246, 0.2);
+}
+
+.wai-checklist-header.gate-prod {
+  background: rgba(5, 150, 105, 0.06);
+  border-bottom-color: rgba(5, 150, 105, 0.2);
+}
+
+.wai-checklist-header.gate-ci {
+  background: rgba(139, 92, 246, 0.06);
+  border-bottom-color: rgba(139, 92, 246, 0.2);
+}
+
+.wai-checklist-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wai-checklist-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(44, 62, 107, 0.5);
+  font-size: 0.85rem;
+}
+
+.wai-checklist-item:last-child {
+  border-bottom: none;
+}
+
+.wai-check-id {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--wai-gray-medium);
+  min-width: 48px;
+  padding-top: 2px;
+  flex-shrink: 0;
+}
+
+.wai-check-box {
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--wai-gray-dark);
+  border-radius: 3px;
+  flex-shrink: 0;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wai-check-label {
+  color: var(--wai-white-warm);
+  line-height: 1.45;
+}
+
+/* --- Go/No-Go Gates --- */
+.wai-gates {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.wai-gate {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.wai-gate-demo {
+  background: rgba(200, 168, 78, 0.06);
+  border-color: rgba(200, 168, 78, 0.25);
+}
+
+.wai-gate-beta {
+  background: rgba(59, 130, 246, 0.06);
+  border-color: rgba(59, 130, 246, 0.2);
+}
+
+.wai-gate-prod {
+  background: rgba(5, 150, 105, 0.06);
+  border-color: rgba(5, 150, 105, 0.2);
+}
+
+.wai-gate-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.wai-gate-text strong {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--wai-white-pure);
+  margin-bottom: 2px;
+}
+
+.wai-gate-text span {
+  font-size: 0.8rem;
+  color: var(--wai-gray-light);
+}
+
+/* --- Open Items Table --- */
+.wai-open-items {
+  border: 1px solid var(--wai-navy-light);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.wai-open-item-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 16px;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--wai-navy-light);
+}
+
+.wai-open-item-row:last-child {
+  border-bottom: none;
+}
+
+.wai-open-item-row:hover {
+  background: rgba(27, 42, 74, 0.6);
+}
+
+.wai-open-item-row-header {
+  background: var(--wai-navy-primary);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--wai-gray-medium);
+}
+
+.wai-oi-task {
+  font-size: 0.875rem;
+  color: var(--wai-white-warm);
+}
+
+.wai-oi-owner {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--wai-gray-medium);
+  white-space: nowrap;
+}
+
+.wai-priority-high {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 20px;
+  background: rgba(220, 38, 38, 0.12);
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  color: #FCA5A5;
+  white-space: nowrap;
+}
+
+.wai-priority-medium {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 20px;
+  background: rgba(217, 119, 6, 0.12);
+  border: 1px solid rgba(217, 119, 6, 0.3);
+  color: #FCD34D;
+  white-space: nowrap;
+}
+
+/* --- Cost Table --- */
+.wai-cost-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--wai-navy-light);
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.875rem;
+}
+
+.wai-cost-table th {
+  background: var(--wai-navy-primary);
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--wai-gray-medium);
+  border-bottom: 1px solid var(--wai-navy-light);
+}
+
+.wai-cost-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(44, 62, 107, 0.5);
+  color: var(--wai-white-warm);
+}
+
+.wai-cost-table tr:last-child td {
+  border-bottom: none;
+  font-weight: 700;
+  color: var(--wai-gold-primary);
+  background: rgba(200, 168, 78, 0.04);
+}
+
+.wai-cost-table .mono {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+/* --- Quote Block --- */
+.wai-quote {
+  border-left: 3px solid var(--wai-gold-primary);
+  padding: 20px 28px;
+  background: rgba(200, 168, 78, 0.04);
+  border-radius: 0 8px 8px 0;
+  margin: 40px 0;
+}
+
+.wai-quote p {
+  font-family: var(--font-statement);
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--wai-gold-light);
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+
+.wai-quote cite {
+  font-size: 0.8rem;
+  color: var(--wai-gray-medium);
+  font-style: normal;
+}
+
+/* --- Divider --- */
+.wai-divider {
+  height: 1px;
+  background: var(--wai-navy-light);
+  margin: 0;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .wai-stage {
+    grid-template-columns: 48px 1fr;
+  }
+
+  .wai-stage-cost {
+    display: none;
+  }
+
+  .wai-stages::before {
+    left: 23px;
+  }
+
+  .wai-sec-row {
+    grid-template-columns: 1fr auto;
+  }
+
+  .wai-sec-ticket {
+    display: none;
+  }
+
+  .wai-open-item-row {
+    grid-template-columns: 1fr auto;
+  }
+
+  .wai-oi-owner {
+    display: none;
+  }
+
+  .wai-checklist-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- VitePress Content Override for custom layout --- */
+.VPContent.is-home {
+  padding-top: 0 !important;
+}
+
+.VPDoc .container {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.VPDoc .content-container {
+  max-width: 100% !important;
+}
+
+.VPDoc .content {
+  padding: 0 !important;
+}
+
+/* Remove default VitePress page padding for landing page layout */
+.layout-landing .VPDoc {
+  padding-top: 0;
+}

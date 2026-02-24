@@ -1,0 +1,15 @@
+{
+  "name": "warrior-ai-web",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.27"
+  }
+}
