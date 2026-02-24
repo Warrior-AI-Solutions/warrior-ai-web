@@ -25,6 +25,7 @@ export default defineConfig({
     nav: [
       { text: 'QA Strategy', link: '/qa' },
       { text: 'Architecture', link: '/architecture' },
+      { text: 'Security', link: '/security' },
     ],
 
     footer: {
