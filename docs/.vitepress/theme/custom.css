@@ -898,6 +898,16 @@ body {
   padding-top: 0 !important;
 }
 
+/* page layout overrides — used by our custom landing page */
+.VPPage {
+  padding: 0 !important;
+}
+
+.VPContent:not(.is-home) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 .VPDoc .container {
   max-width: 100% !important;
   padding: 0 !important;
