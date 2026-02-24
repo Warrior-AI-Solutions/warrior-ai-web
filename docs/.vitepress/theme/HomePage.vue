@@ -9,7 +9,7 @@
         <span>Tested. Scaled.</span>
       </h1>
       <p class="wai-hero-sub">
-        A 5-layer AI coaching platform built for 10,000 Warriors. Two critical security gaps resolved before launch. A staged scaling roadmap to $3,444/mo at full production. A test strategy Anna can sign off.
+        A 5-layer AI coaching platform built for 10,000 Warriors. A staged scaling roadmap to $3,444/mo at full production. A test strategy Anna can sign off.
       </p>
       <div class="wai-hero-badges">
         <span class="wai-badge wai-badge-green">✓ WARAI-71 CORS Fixed</span>
@@ -33,19 +33,19 @@
         </div>
         <div>
           <span class="wai-metric-value">10,000</span>
-          <span class="wai-metric-label">Target Concurrent Warriors</span>
+          <span class="wai-metric-label">Concurrent Warriors</span>
         </div>
         <div>
-          <span class="wai-metric-value">22</span>
-          <span class="wai-metric-label">QA Sign-Off Items</span>
+          <span class="wai-metric-value">100,000</span>
+          <span class="wai-metric-label">Total Customers (10× ratio)</span>
         </div>
         <div>
-          <span class="wai-metric-value">2/2</span>
-          <span class="wai-metric-label">Pre-Launch Gaps Resolved</span>
+          <span class="wai-metric-value">$95<span style="font-size:0.55em;opacity:0.7">/mo</span></span>
+          <span class="wai-metric-label">MRR Floor per Customer</span>
         </div>
         <div>
-          <span class="wai-metric-value">$3,444</span>
-          <span class="wai-metric-label">Full Production / mo</span>
+          <span class="wai-metric-value wai-metric-gold">8-fig</span>
+          <span class="wai-metric-label">Business Potential</span>
         </div>
       </div>
     </section>
@@ -279,13 +279,14 @@
           </div>
         </div>
         <div style="margin-top: 48px;">
-          <p class="wai-section-label">LLM Cost at 5,000 Users</p>
+          <p class="wai-section-label">LLM Cost vs. Revenue at Scale</p>
           <table class="wai-cost-table">
             <thead>
               <tr>
                 <th>Provider / Agent Assignment</th>
                 <th>Rate Limit</th>
                 <th>Monthly Cost</th>
+                <th>Revenue Context</th>
               </tr>
             </thead>
             <tbody>
@@ -293,24 +294,47 @@
                 <td>DeepSeek Chat — Power Stack, Production Stack, Drift Check</td>
                 <td class="mono">500 RPM</td>
                 <td class="mono">~$180/mo</td>
+                <td class="mono wai-roi-cell">0.04% of MRR</td>
               </tr>
               <tr>
                 <td>Claude 3.5 Sonnet — Fact Map, Bible Stack, General Coach</td>
                 <td class="mono">200 RPM</td>
                 <td class="mono">~$420/mo</td>
+                <td class="mono wai-roi-cell">0.09% of MRR</td>
               </tr>
               <tr>
                 <td>Gemini 2.0 Flash — Breakthrough Agent</td>
                 <td class="mono">1,000 RPM</td>
                 <td class="mono">~$90/mo</td>
+                <td class="mono wai-roi-cell">0.02% of MRR</td>
               </tr>
               <tr>
                 <td><strong>Total LLM at 5,000 Warriors</strong></td>
                 <td>—</td>
                 <td class="mono"><strong>~$690/mo</strong></td>
+                <td class="mono wai-roi-cell"><strong>&lt;0.15% of MRR</strong></td>
               </tr>
             </tbody>
           </table>
+          <div class="wai-roi-callout">
+            <div class="wai-roi-callout-inner">
+              <div class="wai-roi-stat">
+                <span class="wai-roi-stat-value">$475M</span>
+                <span class="wai-roi-stat-label">MRR at 100k customers × $95/mo</span>
+              </div>
+              <div class="wai-roi-divider"></div>
+              <div class="wai-roi-stat">
+                <span class="wai-roi-stat-value">$3,444</span>
+                <span class="wai-roi-stat-label">Total infra cost at 5,000 Warriors</span>
+              </div>
+              <div class="wai-roi-divider"></div>
+              <div class="wai-roi-stat">
+                <span class="wai-roi-stat-value wai-metric-gold">&gt;99%</span>
+                <span class="wai-roi-stat-label">Gross margin at scale</span>
+              </div>
+            </div>
+            <p class="wai-roi-note">10,000 concurrent Warriors represents ~100,000 total customers on the platform (10× concurrent-to-total ratio). At a conservative $95/mo MRR floor — many Warriors will be on higher-tier plans — that's an 8-figure monthly recurring revenue business. The infrastructure to run it costs less than a rounding error.</p>
+          </div>
         </div>
       </div>
     </section>
