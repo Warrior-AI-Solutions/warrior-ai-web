@@ -24,6 +24,12 @@
       </div>
     </section>
 
+    <!-- HERO VISUAL -->
+    <div class="home-hero-visual">
+      <img src="/images/wai-sprint-hero.webp" alt="Warrior AI Sprint Command Center" class="home-hero-img" />
+      <div class="home-hero-visual-caption">The Warrior AI Readiness Sprint — two days, six departments, one $120,000 scoped project.</div>
+    </div>
+
     <!-- SECTION 2: THE TRANSFORMATION -->
     <section class="wai-section">
       <div class="wai-inner">
@@ -154,6 +160,10 @@
           </div>
         </div>
 
+        <div class="home-sprint-visual">
+          <img src="/images/wai-six-departments.webp" alt="Six department sprint sessions" class="home-sprint-img" />
+        </div>
+
         <div class="home-sprint-output-banner">
           <div class="home-sprint-output-inner">
             <span class="home-sprint-output-icon">⚔️</span>
@@ -172,6 +182,10 @@
         <p class="wai-section-label">The Warrior Project</p>
         <h2 class="wai-section-title">The New Entry Door to the Warrior Ecosystem.</h2>
         <p class="wai-section-subtitle">The Warrior app rebuild is not an upgrade. It is a reinvention — from a standalone coaching tool to the central gateway through which every Warrior accesses the entire ecosystem: coaching, accountability, stacking, brotherhood, and business infrastructure. Every session with Garrett's team confirmed the same thing: the app is where Warriors live. The rebuild is where AI amplifies that.</p>
+
+        <div class="home-entry-door-visual">
+          <img src="/images/wai-ecosystem-entry-door.webp" alt="The entry door to the Warrior ecosystem" class="home-entry-door-img" />
+        </div>
 
         <div class="home-proof-cards">
           <a href="/project/progress" class="home-proof-card">
@@ -213,6 +227,10 @@
         <p class="wai-section-label">The Business Case</p>
         <h2 class="wai-section-title">Warrior AI Solutions Is a Revenue Arm<br>for the Warrior Ecosystem.</h2>
         <p class="wai-section-subtitle">This project is proof that Warrior AI Solutions can produce, scope, and execute a $120,000 AI implementation for any company in the Warrior ecosystem — and for companies far beyond it. The Warrior project is the case study. Every other company is the market.</p>
+
+        <div class="home-bizcase-visual">
+          <img src="/images/wai-business-case-revenue.webp" alt="Warrior AI Solutions revenue model" class="home-bizcase-img" />
+        </div>
 
         <div class="home-bizcase-grid">
           <div class="home-bizcase-card">
@@ -570,5 +588,64 @@
   color: var(--wai-gray-light);
   line-height: 1.7;
   margin: 8px 0 0;
+}
+
+/* HERO VISUAL */
+.home-hero-visual {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px 0;
+}
+.home-hero-img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(200, 168, 78, 0.2);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(200,168,78,0.1);
+  display: block;
+}
+.home-hero-visual-caption {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--wai-gray-medium);
+  margin-top: 12px;
+  letter-spacing: 0.03em;
+}
+
+/* SPRINT VISUAL */
+.home-sprint-visual {
+  margin: 40px 0 32px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(200, 168, 78, 0.15);
+}
+.home-sprint-img {
+  width: 100%;
+  display: block;
+}
+
+/* ENTRY DOOR VISUAL */
+.home-entry-door-visual {
+  margin: 40px 0 32px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(200, 168, 78, 0.2);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+}
+.home-entry-door-img {
+  width: 100%;
+  display: block;
+}
+
+/* BUSINESS CASE VISUAL */
+.home-bizcase-visual {
+  margin: 40px 0 32px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(200, 168, 78, 0.15);
+}
+.home-bizcase-img {
+  width: 100%;
+  display: block;
 }
 </style>

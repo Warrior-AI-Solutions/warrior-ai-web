@@ -25,6 +25,11 @@
       </div>
     </section>
 
+    <!-- PROGRESS HERO VISUAL -->
+    <div class="progress-hero-visual">
+      <img src="/images/wai-progress-header.webp" alt="Sprint milestone roadmap" class="progress-hero-img" />
+    </div>
+
     <!-- OVERALL STATUS STRIP -->
     <section class="wai-metrics">
       <div class="wai-metrics-inner">
@@ -465,6 +470,20 @@
 </script>
 
 <style scoped>
+/* ── Progress Hero Visual ── */
+.progress-hero-visual {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.progress-hero-img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid rgba(200, 168, 78, 0.2);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+}
+
 /* ── Track Grid ── */
 .prog-master-grid {
   display: grid;
