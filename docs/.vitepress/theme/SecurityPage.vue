@@ -224,14 +224,14 @@
         <table class="wai-table">
           <thead><tr><th>Ticket</th><th>Summary</th><th>Was</th><th>Status</th></tr></thead>
           <tbody>
-            <tr><td>WARAI-74</td><td>HMAC user_id signing (ADR-W026)</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-75</td><td>checkRevoked: true on verifyIdToken</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-76</td><td>Qdrant API key</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-77</td><td>Docker network segmentation (ADR-W027)</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-78</td><td>Injection pattern blocklist at Gateway</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-79</td><td>Identity anchor in all agent system prompts</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-80</td><td>.env permissions 600 + git history scan</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-81</td><td>Firestore Security Rules audit</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-74</td><td>HMAC user_id signing (ADR-W026)</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ DONE</span></td></tr>
+            <tr><td>WARAI-75</td><td>checkRevoked: true on verifyIdToken</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ DONE</span></td></tr>
+            <tr><td>WARAI-76</td><td>Qdrant API key</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ DONE</span></td></tr>
+            <tr><td>WARAI-77</td><td>Docker network segmentation (ADR-W027)</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ DONE</span></td></tr>
+            <tr><td>WARAI-78</td><td>Injection pattern blocklist at Gateway</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ DONE</span></td></tr>
+            <tr><td>WARAI-79</td><td>Identity anchor in all agent system prompts</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ DONE</span></td></tr>
+            <tr><td>WARAI-80</td><td>.env permissions 600 + git history scan</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ DONE</span></td></tr>
+            <tr><td>WARAI-81</td><td>Firestore Security Rules audit</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ DONE</span></td></tr>
             <tr><td>WARAI-82</td><td>Code Node pre-write validation gate</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-gold">Backlog</span></td></tr>
           </tbody>
         </table>
