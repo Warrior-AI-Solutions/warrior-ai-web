@@ -3,20 +3,20 @@
 
     <!-- HERO -->
     <section class="wai-hero">
-      <p class="wai-hero-eyebrow">Warrior AI Solutions — Engineering Overview</p>
+      <p class="wai-hero-eyebrow">Warrior AI Solutions — Live Project Site</p>
       <h1 class="wai-hero-headline">
-        Production-Ready.<br>
-        <span>Tested. Scaled.</span>
+        AI That Transforms<br>
+        <span>How Your Business Operates.</span>
       </h1>
       <p class="wai-hero-sub">
-        A 5-layer AI coaching platform built for 10,000 Warriors. A staged scaling roadmap to $3,444/mo at full production. A test strategy Anna can sign off.
+        A complete AI operating system for the Warrior ecosystem — built into your business, running in months, paying for itself inside a year. This site documents the live implementation in progress. Your business gets exactly this.
       </p>
       <div class="wai-hero-badges">
-        <span class="wai-badge wai-badge-green">✓ WARAI-71 CORS Fixed</span>
-        <span class="wai-badge wai-badge-green">✓ WARAI-72 Rate Limiting Live</span>
-        <span class="wai-badge wai-badge-gold">⚡ 7 Specialist Agents</span>
-        <span class="wai-badge wai-badge-blue">☁ Firebase-Authenticated</span>
-        <span class="wai-badge wai-badge-gold">🔒 Warrior-Owned Infrastructure</span>
+        <span class="wai-badge wai-badge-gold">⚡ Discovery Sprint: Same-Day Live Site</span>
+        <span class="wai-badge wai-badge-green">✓ 7 Specialist Agents Live</span>
+        <span class="wai-badge wai-badge-blue">☁ Self-Hosted. Your Sovereignty.</span>
+        <span class="wai-badge wai-badge-gold">🔒 Brotherhood-Trusted Infrastructure</span>
+        <span class="wai-badge wai-badge-green">✓ WARAI-71 / WARAI-72 Merged</span>
       </div>
       <img
         src="/images/warrior-ai-hero-banner.webp"
@@ -51,6 +51,20 @@
         <div>
           <span class="wai-metric-value wai-metric-gold">8-fig</span>
           <span class="wai-metric-label">Business Potential</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOWCASE BANNER: This Site IS the Product -->
+    <section class="wai-showcase-banner">
+      <div class="wai-inner">
+        <div class="wai-showcase-inner">
+          <div class="wai-showcase-icon">⚔️</div>
+          <div class="wai-showcase-text">
+            <strong>This site is the deliverable.</strong>
+            The page you're reading right now is a live example of what Warrior AI Solutions builds for every client — a real-time stakeholder hub, proposal, documentation center, and QA dashboard in one. This is the Warrior AI coaching app project site, actively serving the team building it. Your implementation would look exactly like this. From discovery session to live URL: same day.
+            <a href="/offer" class="wai-showcase-link">See how it works →</a>
+          </div>
         </div>
       </div>
     </section>
@@ -649,3 +663,48 @@
 
   </div>
 </template>
+
+<style scoped>
+/* SHOWCASE BANNER */
+.wai-showcase-banner {
+  background: linear-gradient(135deg, var(--wai-gold) 0%, #a8823a 100%);
+  padding: 32px 24px;
+}
+.wai-showcase-inner {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.wai-showcase-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.wai-showcase-text {
+  color: var(--wai-navy-deep);
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 500;
+}
+.wai-showcase-text strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.wai-showcase-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--wai-navy-deep);
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 0.9rem;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+.wai-showcase-link:hover {
+  opacity: 1;
+}
+</style>
