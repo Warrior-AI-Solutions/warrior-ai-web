@@ -19,9 +19,9 @@
       </p>
       <div class="wai-hero-badges">
         <span class="wai-badge wai-badge-green">✓ Backend 100% Live</span>
-        <span class="wai-badge wai-badge-green">✓ M1 · M2 · M3 · M4 · M10 Done</span>
-        <span class="wai-badge wai-badge-gold">⚡ M5 Active — Voice Coaching</span>
-        <span class="wai-badge wai-badge-blue">🎯 M6 Next — Door &amp; Proof System</span>
+        <span class="wai-badge wai-badge-green">✓ M1 · M2 · M3 · M4 · M5 · M10 Done</span>
+        <span class="wai-badge wai-badge-gold">⚡ M6 Active — Door &amp; Proof System</span>
+        <span class="wai-badge wai-badge-blue">🎯 V0 Gate at M6 Complete</span>
       </div>
     </section>
 
@@ -38,7 +38,7 @@
           <span class="wai-metric-label">Backend Days Completed</span>
         </div>
         <div>
-          <span class="wai-metric-value">5</span>
+          <span class="wai-metric-value">6</span>
           <span class="wai-metric-label">Flutter Milestones Done</span>
         </div>
         <div>
@@ -258,13 +258,13 @@
               </ul>
             </div>
 
-            <!-- ACTIVE — M5 coding now -->
-            <div class="prog-sprint-row prog-active">
+            <!-- DONE — M5 complete -->
+            <div class="prog-sprint-row prog-done">
               <div class="prog-sprint-head">
-                <span class="prog-sprint-tag prog-tag-active">M5</span>
+                <span class="prog-sprint-tag prog-tag-m1">M5</span>
                 <span class="prog-sprint-name">Active Stack Session (Voice Coaching)</span>
                 <span class="prog-sprint-days">~4-5 days</span>
-                <span class="prog-status-dot prog-dot-gold">⚡</span>
+                <span class="prog-status-dot prog-dot-green">✓</span>
               </div>
               <ul class="prog-sprint-items">
                 <li>OMI waveform + live transcript (reused, not rewritten)</li>
@@ -275,13 +275,13 @@
               </ul>
             </div>
 
-            <!-- NEXT — V0 critical path -->
-            <div class="prog-sprint-row prog-next">
+            <!-- ACTIVE — M6 coding now -->
+            <div class="prog-sprint-row prog-active">
               <div class="prog-sprint-head">
-                <span class="prog-sprint-tag prog-tag-next">M6</span>
+                <span class="prog-sprint-tag prog-tag-active">M6</span>
                 <span class="prog-sprint-name">Door &amp; Proof System</span>
                 <span class="prog-sprint-days">~3-4 days</span>
-                <span class="prog-status-dot prog-dot-gray">→</span>
+                <span class="prog-status-dot prog-dot-gold">⚡</span>
               </div>
               <ul class="prog-sprint-items">
                 <li>Door creation — 5 required fields, no skip button</li>
