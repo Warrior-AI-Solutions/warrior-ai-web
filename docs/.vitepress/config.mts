@@ -23,6 +23,8 @@ export default defineConfig({
     siteTitle: 'Warrior AI',
 
     nav: [
+      { text: 'Progress', link: '/progress' },
+      { text: 'Jira Tickets', link: '/jira' },
       { text: 'QA Strategy', link: '/qa' },
       { text: 'Architecture', link: '/architecture' },
       { text: 'Security', link: '/security' },
