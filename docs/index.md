@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Warrior AI Solutions — QA & Engineering Overview
+title: Warrior AI Solutions — AI That Transforms How Your Business Operates
 ---
 
 <HomePage />

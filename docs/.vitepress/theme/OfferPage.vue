@@ -353,7 +353,7 @@
               <span class="proof-card-label">Architecture</span>
             </div>
             <p class="proof-card-desc">5-layer production platform. Flutter thin client. Dify CE intelligence layer. Firebase data layer. Hono security bridge. Vultr self-hosted. Every design decision documented with rationale.</p>
-            <a href="/architecture" class="proof-card-link">View Architecture →</a>
+            <a href="/project/architecture" class="proof-card-link">View Architecture →</a>
           </div>
           <div class="proof-card">
             <div class="proof-card-header">
@@ -361,7 +361,7 @@
               <span class="proof-card-label">Progress Tracking</span>
             </div>
             <p class="proof-card-desc">Live milestone tracker. Sprint status. Backend systems live on Vultr. Flutter milestones in flight. V0 gate criteria defined and tracked. Your stakeholders know the state at all times.</p>
-            <a href="/progress" class="proof-card-link">View Progress →</a>
+            <a href="/project/progress" class="proof-card-link">View Progress →</a>
           </div>
           <div class="proof-card">
             <div class="proof-card-header">
@@ -369,7 +369,7 @@
               <span class="proof-card-label">Security Posture</span>
             </div>
             <p class="proof-card-desc">42-item security audit. 8 HIGH findings resolved before QA began. HMAC-signed tokens. Docker network segmentation. Injection blocklists. Every gap tracked, owned, and resolved.</p>
-            <a href="/security" class="proof-card-link">View Security →</a>
+            <a href="/project/security" class="proof-card-link">View Security →</a>
           </div>
           <div class="proof-card">
             <div class="proof-card-header">
@@ -377,7 +377,7 @@
               <span class="proof-card-label">QA &amp; Sign-Off</span>
             </div>
             <p class="proof-card-desc">Binary success criteria. No gray areas. Three launch gates: demo, beta, production. 22 checkboxes with named owners. Your stakeholders sign off on evidence — not assurances.</p>
-            <a href="/qa" class="proof-card-link">View QA Strategy →</a>
+            <a href="/project/qa" class="proof-card-link">View QA Strategy →</a>
           </div>
         </div>
       </div>

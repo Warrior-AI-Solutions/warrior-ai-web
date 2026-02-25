@@ -1,649 +1,197 @@
 <template>
   <div class="wai-page">
 
-    <!-- HERO -->
+    <!-- SECTION 1: HERO -->
     <section class="wai-hero">
-      <p class="wai-hero-eyebrow">Warrior AI Solutions — Live Project Site</p>
+      <p class="wai-hero-eyebrow">Warrior AI Solutions</p>
       <h1 class="wai-hero-headline">
         AI That Transforms<br>
         <span>How Your Business Operates.</span>
       </h1>
       <p class="wai-hero-sub">
-        A complete AI operating system for the Warrior ecosystem — built into your business, running in months, paying for itself inside a year. This site documents the live implementation in progress. Your business gets exactly this.
+        Not a subscription. Not a strategy deck. A complete AI operating system built into your business — by the only firm that operates inside the Warrior ecosystem. From discovery session to live project site: same day.
       </p>
       <div class="wai-hero-badges">
-        <span class="wai-badge wai-badge-gold">⚡ Discovery Sprint: Same-Day Live Site</span>
-        <span class="wai-badge wai-badge-green">✓ 7 Specialist Agents Live</span>
-        <span class="wai-badge wai-badge-blue">☁ Self-Hosted. Your Sovereignty.</span>
-        <span class="wai-badge wai-badge-gold">🔒 Brotherhood-Trusted Infrastructure</span>
-        <span class="wai-badge wai-badge-green">✓ WARAI-71 / WARAI-72 Merged</span>
+        <span class="wai-badge wai-badge-gold">⚡ Discovery Sprint → Same-Day Site</span>
+        <span class="wai-badge wai-badge-green">✓ Brotherhood-Trusted. 15 Years.</span>
+        <span class="wai-badge wai-badge-blue">☁ Self-Hosted. Your Data. Your Control.</span>
+        <span class="wai-badge wai-badge-gold">🔒 Live Implementation Running Now</span>
       </div>
-      <img
-        src="/images/warrior-ai-hero-banner.webp"
-        alt="Warrior AI — Production-Ready Platform"
-        class="wai-section-image-hero"
-      />
-    </section>
-
-    <!-- METRICS STRIP -->
-    <section class="wai-metrics">
-      <div class="wai-metrics-inner">
-        <div>
-          <span class="wai-metric-value">5</span>
-          <span class="wai-metric-label">Architecture Layers</span>
-        </div>
-        <div>
-          <span class="wai-metric-value">7</span>
-          <span class="wai-metric-label">Specialist AI Agents</span>
-        </div>
-        <div>
-          <span class="wai-metric-value">10,000</span>
-          <span class="wai-metric-label">Concurrent Warriors</span>
-        </div>
-        <div>
-          <span class="wai-metric-value">100,000</span>
-          <span class="wai-metric-label">Total Customers (10× ratio)</span>
-        </div>
-        <div>
-          <span class="wai-metric-value">$95<span style="font-size:0.55em;opacity:0.7">/mo</span></span>
-          <span class="wai-metric-label">MRR Floor per Customer</span>
-        </div>
-        <div>
-          <span class="wai-metric-value wai-metric-gold">8-fig</span>
-          <span class="wai-metric-label">Business Potential</span>
-        </div>
+      <div class="home-hero-ctas">
+        <a href="/offer" class="home-cta-primary">SEE THE OFFER</a>
+        <a href="/project" class="home-cta-secondary">SEE A LIVE PROJECT</a>
       </div>
     </section>
 
-    <!-- SHOWCASE BANNER: This Site IS the Product -->
-    <section class="wai-showcase-banner">
-      <div class="wai-inner">
-        <div class="wai-showcase-inner">
-          <div class="wai-showcase-icon">⚔️</div>
-          <div class="wai-showcase-text">
-            <strong>This site is the deliverable.</strong>
-            The page you're reading right now is a live example of what Warrior AI Solutions builds for every client — a real-time stakeholder hub, proposal, documentation center, and QA dashboard in one. This is the Warrior AI coaching app project site, actively serving the team building it. Your implementation would look exactly like this. From discovery session to live URL: same day.
-            <a href="/offer" class="wai-showcase-link">See how it works →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PLATFORM ARCHITECTURE -->
+    <!-- SECTION 2: THE DELIVERABLE -->
     <section class="wai-section">
       <div class="wai-inner">
-        <p class="wai-section-label">Platform Architecture</p>
-        <h2 class="wai-section-title">Five Layers. One Coaching Ecosystem.</h2>
-        <p class="wai-section-subtitle">Every warrior message flows through Firebase-authenticated access, into a Dify-powered 7-agent coaching engine, pulling personalized context from Firebase — and streaming back a coaching response in real time.</p>
-        <div class="wai-arch-stack">
-          <div class="wai-arch-layer">
-            <span class="wai-arch-layer-num">01</span>
-            <div>
-              <div class="wai-arch-layer-name">Flutter App</div>
-              <div class="wai-arch-layer-detail">Native iOS &amp; Android · Core 4 Dashboard · Offline-capable · OMI Pendant integration</div>
-            </div>
-            <span class="wai-arch-layer-status status-planned">In Development</span>
+        <p class="wai-section-label">What You Get</p>
+        <h2 class="wai-section-title">The Site You're Reading Is the Deliverable.</h2>
+        <p class="wai-section-subtitle">Every Warrior AI Solutions client receives a living project site — deployed the same day as the discovery session. This site is the Warrior AI coaching platform implementation in progress. Your business would have one exactly like it.</p>
+
+        <div class="home-deliverable-grid">
+          <div class="home-deliverable-card home-card-featured">
+            <div class="home-deliverable-icon">⚡</div>
+            <div class="home-deliverable-label">Same-Day Site</div>
+            <div class="home-deliverable-desc">Your discovery session ends. Your project site goes live. Architecture, milestones, ROI projection, and investment summary — deployed before you leave the call.</div>
           </div>
-          <div class="wai-arch-layer">
-            <span class="wai-arch-layer-num">02</span>
-            <div>
-              <div class="wai-arch-layer-name">Hono Gateway :3000</div>
-              <div class="wai-arch-layer-detail">Firebase JWT validation · Per-user rate limiting · SSE proxy to Dify · CORS-restricted</div>
-            </div>
-            <span class="wai-arch-layer-status status-live">Live on Vultr</span>
+          <div class="home-deliverable-card">
+            <div class="home-deliverable-icon">📄</div>
+            <div class="home-deliverable-label">Living Documentation</div>
+            <div class="home-deliverable-desc">The proposal doesn't become a PDF. It becomes your project tracker. Every decision, every milestone, every scope change — one URL. Replaces 47 Slack threads.</div>
           </div>
-          <div class="wai-arch-layer">
-            <span class="wai-arch-layer-num">03</span>
-            <div>
-              <div class="wai-arch-layer-name">Dify CE — 11 Containers</div>
-              <div class="wai-arch-layer-detail">7 specialist agents · Coordinator routing · Celery workers · Qdrant vector store · Redis</div>
-            </div>
-            <span class="wai-arch-layer-status status-live">Live on Vultr</span>
+          <div class="home-deliverable-card">
+            <div class="home-deliverable-icon">📊</div>
+            <div class="home-deliverable-label">Stakeholder Visibility</div>
+            <div class="home-deliverable-desc">Send your investors this link. Send your board this link. Everyone sees the same state in real time. No status meetings. No version confusion.</div>
           </div>
-          <div class="wai-arch-layer">
-            <span class="wai-arch-layer-num">04</span>
-            <div>
-              <div class="wai-arch-layer-name">Hono Firebase Bridge :4000</div>
-              <div class="wai-arch-layer-detail">localhost-only · 13 REST endpoints · Redis-cached context · 6 parallel Firestore reads</div>
-            </div>
-            <span class="wai-arch-layer-status status-live">Live on Vultr</span>
-          </div>
-          <div class="wai-arch-layer">
-            <span class="wai-arch-layer-num">05</span>
-            <div>
-              <div class="wai-arch-layer-name">Firebase Firestore</div>
-              <div class="wai-arch-layer-detail">Staging: attack-with-stack-staging · Stacks · Core 4 · Door Cards · Fact Maps · Profile</div>
-            </div>
-            <span class="wai-arch-layer-status status-live">Staging Active</span>
+          <div class="home-deliverable-card">
+            <div class="home-deliverable-icon">✅</div>
+            <div class="home-deliverable-label">Evidence-Based QA</div>
+            <div class="home-deliverable-desc">Binary success criteria. Named owners. Three launch gates. Nothing ships without evidence — not assurances. Your QA is defined before a line of code is written.</div>
           </div>
         </div>
-        <img
-          src="/images/warrior-ai-architecture-flow.webp"
-          alt="5-Layer Architecture Data Flow"
-          class="wai-section-image"
-        />
-        <div class="wai-quote">
-          <p>"The Firebase JWT is validated at the Gateway and discarded. The Dify engine receives only a user ID — never a token. The Bridge is physically unreachable from the internet."</p>
-          <cite>— Security model by design (DL-013)</cite>
+
+        <div class="home-proof-link">
+          <a href="/project" class="home-proof-link-anchor">
+            <span>Browse the live Warrior AI implementation →</span>
+            <span class="home-proof-link-sub">Architecture · Progress · QA · Security · Tickets</span>
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- QA PILLARS -->
+    <!-- SECTION 3: HOW IT WORKS -->
     <section class="wai-section wai-section-alt">
       <div class="wai-inner">
-        <p class="wai-section-label">QA Strategy</p>
-        <h2 class="wai-section-title">Three Pillars. Zero Guesswork.</h2>
-        <p class="wai-section-subtitle">The test strategy covers every layer of the platform — from individual endpoint validation through sustained 10,000-user load. Nothing is left to chance.</p>
+        <p class="wai-section-label">The Engagement Model</p>
+        <h2 class="wai-section-title">Three Steps. One Continuous Path.</h2>
+        <p class="wai-section-subtitle">Every engagement starts with a bounded discovery sprint. You pay for certainty — and leave with a live site and a full proposal regardless of whether you proceed. The sprint fee is credited back in full at signing.</p>
+
+        <div class="home-steps">
+          <div class="home-step">
+            <div class="home-step-num">01</div>
+            <div class="home-step-body">
+              <div class="home-step-title">Discovery Sprint</div>
+              <div class="home-step-desc">A 2–4 hour structured session. No prep required. We explore your business, your bottlenecks, and the exact value AI would create. By end of day: live site, product brief, technical scope, ROI projection, and investment proposal.</div>
+              <div class="home-step-price">€7,500 – €15,000 <span>· credited back in full</span></div>
+            </div>
+          </div>
+          <div class="home-step-connector">↓</div>
+          <div class="home-step">
+            <div class="home-step-num">02</div>
+            <div class="home-step-body">
+              <div class="home-step-title">AI Implementation</div>
+              <div class="home-step-desc">A complete AI operating system deployed into your business. Multi-agent intelligence. Full automation. Four milestones from foundation to clean handoff. First automation live in week one — not month four.</div>
+              <div class="home-step-price">€50,000 – €250,000 <span>· 3–6 months</span></div>
+            </div>
+          </div>
+          <div class="home-step-connector">↓</div>
+          <div class="home-step">
+            <div class="home-step-num">03</div>
+            <div class="home-step-body">
+              <div class="home-step-title">Operating Partnership</div>
+              <div class="home-step-desc">AI doesn't self-maintain. Prompt drift, model updates, and evolving business conditions require active stewardship. Monthly tuning. Quarterly strategy. New automations as your business grows.</div>
+              <div class="home-step-price">€2,000 – €8,000 <span>/ month</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align:center; margin-top: 48px;">
+          <a href="/offer" class="home-cta-primary">FULL PRICING AND SCOPE →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: THE TRUST MOAT -->
+    <section class="wai-section">
+      <div class="wai-inner">
+        <p class="wai-section-label">Why Warrior AI Solutions</p>
+        <h2 class="wai-section-title">Five Advantages No Agency Can Replicate.</h2>
+        <p class="wai-section-subtitle">These are structural — not positioning claims. They exist because Warrior AI Solutions is built inside the ecosystem it serves, by people who have been inside it for years.</p>
+
         <div class="wai-pillars">
           <div class="wai-pillar-card">
-            <span class="wai-pillar-icon">🧪</span>
-            <h3 class="wai-pillar-title">Functional</h3>
-            <p class="wai-pillar-desc">Unit → Integration → E2E pyramid. Every auth flow, every rate limit, every user data isolation guarantee has a named test case.</p>
-            <div class="wai-pillar-stats">
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>100+ unit tests (Gateway + Bridge)</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>30–50 integration tests (staged VPS)</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>10 E2E scenarios (Anna's sign-off cases)</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>Firebase Emulator for local CI</div>
-            </div>
+            <span class="wai-pillar-icon">🤝</span>
+            <h3 class="wai-pillar-title">Trust Already Built</h3>
+            <p class="wai-pillar-desc">15 years of Warrior methodology. If you are Council or Savage, you already trust the people behind this before the first call. The biggest blocker to AI adoption is trust — we start the sale already past it.</p>
           </div>
           <div class="wai-pillar-card">
             <span class="wai-pillar-icon">⚡</span>
-            <h3 class="wai-pillar-title">Load &amp; Scale</h3>
-            <p class="wai-pillar-desc">k6 load testing in 5 phases. Baseline → confidence → stress → scale → production simulation. Clear pass/fail thresholds at every stage.</p>
-            <div class="wai-pillar-stats">
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>Baseline: 0→100 users, p95 &lt; 3s</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>Production Sim: 5,000 users, 24 hours</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>Redis cache hit rate target: &gt;80%</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>Error rate threshold: &lt;0.5%</div>
-            </div>
+            <h3 class="wai-pillar-title">Same-Day Site</h3>
+            <p class="wai-pillar-desc">No agency delivers a live, deployed stakeholder proposal on the day of the discovery session. We do. The session ends — your site goes live. Investors, team, and partners see a fully structured proposal. Same day.</p>
           </div>
           <div class="wai-pillar-card">
-            <span class="wai-pillar-icon">🔒</span>
-            <h3 class="wai-pillar-title">Security</h3>
-            <p class="wai-pillar-desc">Full 42-item security audit complete. 8 HIGH findings resolved across LLM, network, and auth layers. Two ADRs implemented. Code merged to dev.</p>
-            <div class="wai-pillar-stats">
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot wai-dot-green"></div>HMAC-signed user_id chain (ADR-W026)</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot wai-dot-green"></div>Docker 5-tier network segmentation (ADR-W027)</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot wai-dot-green"></div>Injection blocklist + identity anchors in all agents</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot wai-dot-green"></div>Firestore rules + .env hardening + Qdrant API key</div>
-            </div>
+            <span class="wai-pillar-icon">📄</span>
+            <h3 class="wai-pillar-title">Living Documentation</h3>
+            <p class="wai-pillar-desc">The proposal doesn't sit in an inbox. It becomes the project tracker. Six months into implementation, your stakeholders have a single URL — not 47 Slack threads and a stale PDF.</p>
+          </div>
+          <div class="wai-pillar-card">
+            <span class="wai-pillar-icon">🤖</span>
+            <h3 class="wai-pillar-title">AI-Operated Delivery</h3>
+            <p class="wai-pillar-desc">Jeremy — our AI system — generates the site, maintains documentation, runs the discovery analysis, and monitors the implementation. This is not a person doing manual work. It scales and it doesn't get tired.</p>
+          </div>
+          <div class="wai-pillar-card">
+            <span class="wai-pillar-icon">🏰</span>
+            <h3 class="wai-pillar-title">Methodology-Native</h3>
+            <p class="wai-pillar-desc">Every agent we build speaks the Warrior language — Core 4, stacking, accountability, the Door. We don't translate. We build inside the framework your team already knows how to use.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- SECURITY STATUS -->
-    <section class="wai-section">
-      <div class="wai-inner">
-        <p class="wai-section-label">Security Status</p>
-        <h2 class="wai-section-title">Known Gaps. Resolved Before Launch.</h2>
-        <p class="wai-section-subtitle">Every security item is tracked, owned, and categorized. Nothing is unknown. Two critical gaps found during architecture analysis were fixed and merged before any QA testing began.</p>
-        <div class="wai-security-grid">
-          <div class="wai-sec-row" style="background: var(--wai-navy-primary);">
-            <span style="font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--wai-gray-medium);">Security Item</span>
-            <span style="font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--wai-gray-medium);">Ticket</span>
-            <span style="font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--wai-gray-medium);">Status</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Firebase JWT validation — token verified, uid extracted, token discarded</span>
-            <span class="wai-sec-ticket">by design</span>
-            <span class="wai-sec-status sec-design">BY DESIGN</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">CORS: replaced wildcard <code>*</code> with <code>ALLOWED_ORIGIN</code> env var</span>
-            <span class="wai-sec-ticket">WARAI-71</span>
-            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Per-user rate limiting on <code>/chat</code> — 20 req/min, configurable, <code>Retry-After</code> header</span>
-            <span class="wai-sec-ticket">WARAI-72</span>
-            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Bridge localhost-only — port 4000 bound to 127.0.0.1, unreachable from internet</span>
-            <span class="wai-sec-ticket">by design</span>
-            <span class="wai-sec-status sec-design">BY DESIGN</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Zod validation on all Bridge write endpoints — type, length (5k chars max), enums</span>
-            <span class="wai-sec-ticket">by design</span>
-            <span class="wai-sec-status sec-design">BY DESIGN</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">AI audit trail — <code>digital_trainer_stack: true</code> on every AI-generated write</span>
-            <span class="wai-sec-ticket">ADR-W019</span>
-            <span class="wai-sec-status sec-design">BY DESIGN</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Input length limit on <code>/chat</code> message field</span>
-            <span class="wai-sec-ticket">pending</span>
-            <span class="wai-sec-status sec-pending">PRE-LAUNCH</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Bridge write rate limiting — Redis INCR pattern (ADR-W021)</span>
-            <span class="wai-sec-ticket">ADR-W021</span>
-            <span class="wai-sec-status sec-pending">PRE-BETA</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">HMAC-SHA256 signed user_id token — Gateway mints, Bridge verifies (ADR-W026)</span>
-            <span class="wai-sec-ticket">WARAI-74</span>
-            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Firebase token revocation check — <code>checkRevoked: true</code> eliminates 1h replay window</span>
-            <span class="wai-sec-ticket">WARAI-75</span>
-            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Qdrant API key authentication — corpus reads and writes now gated</span>
-            <span class="wai-sec-ticket">WARAI-76</span>
-            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Docker network segmentation — 5 named trust tiers replacing flat network (ADR-W027)</span>
-            <span class="wai-sec-ticket">WARAI-77</span>
-            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Injection pattern blocklist at Gateway — 20+ patterns blocked before Dify handoff</span>
-            <span class="wai-sec-ticket">WARAI-78</span>
-            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Identity anchor + security boundary in all 7 agent system prompts</span>
-            <span class="wai-sec-ticket">WARAI-79</span>
-            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">.env permissions 600 enforced + git history scan script</span>
-            <span class="wai-sec-ticket">WARAI-80</span>
-            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
-          </div>
-          <div class="wai-sec-row">
-            <span class="wai-sec-item">Firestore Security Rules — <code>request.auth.uid == userId</code> scoping enforced</span>
-            <span class="wai-sec-ticket">WARAI-81</span>
-            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SCALING ROADMAP -->
+    <!-- SECTION 5: PROOF + DUAL CTA -->
     <section class="wai-section wai-section-alt">
       <div class="wai-inner">
-        <p class="wai-section-label">Scaling Roadmap</p>
-        <h2 class="wai-section-title">Stage 0 to 10,000 Warriors.</h2>
-        <p class="wai-section-subtitle">The architecture is designed from day one for production scale. The bottleneck is Celery — not the Gateway, not Firebase. Five stages take us from demo to 10,000 concurrent users with full cost transparency at each step.</p>
-        <div class="wai-stages">
-          <div class="wai-stage active">
-            <div class="wai-stage-num">0</div>
-            <div>
-              <div class="wai-stage-title">Current State — V0 Demo</div>
-              <div class="wai-stage-target">Target: 50 concurrent Warriors</div>
-              <div class="wai-stage-desc">4 vCPU / 12GB RAM Vultr VPS. Default Celery config. ~10–20 truly parallel LLM sessions. Suitable for Garrett demo and first 100 users. No action required until p95 response time exceeds 5s under normal load.</div>
-            </div>
-            <div class="wai-stage-cost">
-              <span class="wai-stage-cost-amount">$72</span>
-              <span class="wai-stage-cost-label">per month</span>
-            </div>
-          </div>
-          <div class="wai-stage">
-            <div class="wai-stage-num">1</div>
-            <div>
-              <div class="wai-stage-title">Celery Optimisation — Zero Hardware Cost</div>
-              <div class="wai-stage-target">Target: 150 concurrent Warriors</div>
-              <div class="wai-stage-desc">Enable gevent concurrency on Celery workers (<code>--concurrency=20 -P gevent</code>). Add second worker container. LLM API calls are I/O-bound — gevent doubles effective throughput at zero cost. 2–4 hours to implement. Result: 40–60 parallel LLM sessions.</div>
-            </div>
-            <div class="wai-stage-cost">
-              <span class="wai-stage-cost-amount">$0 delta</span>
-              <span class="wai-stage-cost-label">config change only</span>
-            </div>
-          </div>
-          <div class="wai-stage">
-            <div class="wai-stage-num">2</div>
-            <div>
-              <div class="wai-stage-title">VPS Vertical Scale</div>
-              <div class="wai-stage-target">Target: 400 concurrent Warriors</div>
-              <div class="wai-stage-desc">Resize Vultr VPS to 8 vCPU / 32GB RAM. Scale Celery to 4 containers × 20 gevent = 80 parallel sessions. 1 day to implement (Vultr live resize, ~10 min downtime). Increase PostgreSQL max_connections to 300, Redis maxmemory to 4GB.</div>
-            </div>
-            <div class="wai-stage-cost">
-              <span class="wai-stage-cost-amount">$180</span>
-              <span class="wai-stage-cost-label">per month</span>
-            </div>
-          </div>
-          <div class="wai-stage">
-            <div class="wai-stage-num">3</div>
-            <div>
-              <div class="wai-stage-title">Service Separation — 3 Servers</div>
-              <div class="wai-stage-target">Target: 1,000 concurrent Warriors</div>
-              <div class="wai-stage-desc">Separate Gateway/Bridge (Server 1), Dify AI Engine (Server 2), and dedicated Redis (Server 3). Shared Redis enables rate limiter to work correctly across multiple Gateway instances. 6 Celery workers × 20 gevent = 120 parallel LLM sessions. 1–2 weeks to implement.</div>
-            </div>
-            <div class="wai-stage-cost">
-              <span class="wai-stage-cost-amount">$450</span>
-              <span class="wai-stage-cost-label">per month total</span>
-            </div>
-          </div>
-          <div class="wai-stage">
-            <div class="wai-stage-num">4</div>
-            <div>
-              <div class="wai-stage-title">Horizontal Dify Cluster</div>
-              <div class="wai-stage-target">Target: 5,000–10,000 concurrent Warriors</div>
-              <div class="wai-stage-desc">Load-balanced Dify cluster (3 instances). Consistent-hash load balancing by conversation_id for session affinity. Shared Redis backend — conversation state accessible to any instance. 360 parallel LLM sessions. 4–6 weeks to implement.</div>
-            </div>
-            <div class="wai-stage-cost">
-              <span class="wai-stage-cost-amount">$1,500</span>
-              <span class="wai-stage-cost-label">per month</span>
-            </div>
-          </div>
-        </div>
-        <img
-          src="/images/warrior-ai-scaling-roadmap.webp"
-          alt="Warrior AI Scaling Roadmap — Stage 0 to 10,000 Warriors"
-          class="wai-section-image"
-        />
-        <div style="margin-top: 48px;">
-          <p class="wai-section-label">LLM Cost vs. Revenue at Scale</p>
-          <table class="wai-cost-table">
-            <thead>
-              <tr>
-                <th>Provider / Agent Assignment</th>
-                <th>Rate Limit</th>
-                <th>Monthly Cost</th>
-                <th>Revenue Context</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>DeepSeek Chat — Power Stack, Production Stack, Drift Check</td>
-                <td class="mono">500 RPM</td>
-                <td class="mono">~$180/mo</td>
-                <td class="mono wai-roi-cell">0.04% of MRR</td>
-              </tr>
-              <tr>
-                <td>Claude 3.5 Sonnet — Fact Map, Bible Stack, General Coach</td>
-                <td class="mono">200 RPM</td>
-                <td class="mono">~$420/mo</td>
-                <td class="mono wai-roi-cell">0.09% of MRR</td>
-              </tr>
-              <tr>
-                <td>Gemini 2.0 Flash — Breakthrough Agent</td>
-                <td class="mono">1,000 RPM</td>
-                <td class="mono">~$90/mo</td>
-                <td class="mono wai-roi-cell">0.02% of MRR</td>
-              </tr>
-              <tr>
-                <td><strong>Total LLM at 5,000 Warriors</strong></td>
-                <td>—</td>
-                <td class="mono"><strong>~$690/mo</strong></td>
-                <td class="mono wai-roi-cell"><strong>&lt;0.15% of MRR</strong></td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="wai-roi-callout">
-            <div class="wai-roi-callout-inner">
-              <div class="wai-roi-stat">
-                <span class="wai-roi-stat-value">$475M</span>
-                <span class="wai-roi-stat-label">MRR at 100k customers × $95/mo</span>
-              </div>
-              <div class="wai-roi-divider"></div>
-              <div class="wai-roi-stat">
-                <span class="wai-roi-stat-value">$3,444</span>
-                <span class="wai-roi-stat-label">Total infra cost at 5,000 Warriors</span>
-              </div>
-              <div class="wai-roi-divider"></div>
-              <div class="wai-roi-stat">
-                <span class="wai-roi-stat-value wai-metric-gold">&gt;99%</span>
-                <span class="wai-roi-stat-label">Gross margin at scale</span>
-              </div>
-            </div>
-            <p class="wai-roi-note">10,000 concurrent Warriors represents ~100,000 total customers on the platform (10× concurrent-to-total ratio). At a conservative $95/mo MRR floor — many Warriors will be on higher-tier plans — that's an 8-figure monthly recurring revenue business. The infrastructure to run it costs less than a rounding error.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <p class="wai-section-label">Live Proof</p>
+        <h2 class="wai-section-title">One Implementation. Fully Visible.</h2>
+        <p class="wai-section-subtitle">The Warrior AI coaching platform — a production system for 10,000+ Warriors — is documented in full on this site. Browse the implementation to understand exactly what you would receive as a client.</p>
 
-    <!-- ANNA'S CHECKLIST -->
-    <section class="wai-section">
-      <div class="wai-inner">
-        <p class="wai-section-label">QA Sign-Off</p>
-        <h2 class="wai-section-title">Anna's Gate. Binary. No Gray Areas.</h2>
-        <p class="wai-section-subtitle">22 binary checkboxes. Each requires evidence — not "looks good." Three launch gates: Garrett demo, beta, and production. Nothing ships without the gate passing.</p>
-        <div class="wai-checklist-grid">
-          <div class="wai-checklist-group">
-            <div class="wai-checklist-header gate-demo">
-              <span class="wai-checklist-header-icon">🧪</span>
-              <span class="wai-checklist-header-title">Functional</span>
-              <span class="wai-checklist-header-count">F-01 → F-09</span>
-            </div>
-            <ul class="wai-checklist-items">
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">F-01</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Unit test suite for <code>warrior-hono-gateway</code> — all passing</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">F-02</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Unit test suite for <code>warrior-firebase-bridge</code> — all passing</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">F-03</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">E2E-01: Happy path Power Stack conversation completes</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">F-04</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">E2E-02: Coordinator routes ≥8/10 messages to correct specialist</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">F-05</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">E2E-03: Agent references user's prior stacks in response</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">F-06</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">E2E-04: AI stack appears in Firebase with <code>digital_trainer_stack: true</code></span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">F-07</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">E2E-05: Expired token returns <code>401</code> within 200ms</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">F-08</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">E2E-06: User A cannot see User B's stack data</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">F-09</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">E2E-09: Bridge write rate limit — 11th write/min returns <code>429</code></span>
-              </li>
-            </ul>
-          </div>
-          <div class="wai-checklist-group">
-            <div class="wai-checklist-header gate-beta">
-              <span class="wai-checklist-header-icon">⚡</span>
-              <span class="wai-checklist-header-title">Load</span>
-              <span class="wai-checklist-header-count">L-01 → L-06</span>
-            </div>
-            <ul class="wai-checklist-items">
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">L-01</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Baseline load test completed — p50/p95/p99 documented</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">L-02</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">150 concurrent users: p95 &lt;3s, error rate &lt;1%</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">L-03</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">VPS RAM &lt;10GB under 150-user sustained load</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">L-04</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Redis cache hit rate &gt;80% under load</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">L-05</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Celery worker queue depth &lt;50 under load</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">L-06</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Scaling upgrade path documented and costed</span>
-              </li>
-            </ul>
-            <div class="wai-checklist-header gate-prod" style="margin-top:0;border-top:1px solid var(--wai-navy-light);">
-              <span class="wai-checklist-header-icon">🔒</span>
-              <span class="wai-checklist-header-title">Security</span>
-              <span class="wai-checklist-header-count">S-01 → S-07</span>
-            </div>
-            <ul class="wai-checklist-items">
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">S-01</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label"><code>ALLOWED_ORIGIN</code> set to staging app URL in staging <code>.env</code></span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">S-02</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Rate limiting confirmed: 21st request in 60s returns <code>429</code></span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">S-03</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Direct HTTP to Bridge :4000 from outside VPS: connection refused</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">S-04</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Firebase credentials absent from all logs</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">S-05</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Dify API key absent from any client-visible response</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">S-06</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Input length limit on <code>/chat</code> message field implemented</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">S-07</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Bridge write rate limit (ADR-W021 Redis pattern) implemented</span>
-              </li>
-            </ul>
-          </div>
-          <div class="wai-checklist-group">
-            <div class="wai-checklist-header gate-ci">
-              <span class="wai-checklist-header-icon">🔁</span>
-              <span class="wai-checklist-header-title">CI/CD</span>
-              <span class="wai-checklist-header-count">CI-01 → CI-03</span>
-            </div>
-            <ul class="wai-checklist-items">
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">CI-01</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">GitHub Actions runs unit tests on every push to <code>dev</code></span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">CI-02</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label"><code>bun run typecheck</code> passes in CI for both repos</span>
-              </li>
-              <li class="wai-checklist-item">
-                <span class="wai-check-id">CI-03</span>
-                <div class="wai-check-box"></div>
-                <span class="wai-check-label">Load test baseline runs in CI on every push to <code>main</code></span>
-              </li>
-            </ul>
-          </div>
+        <div class="home-proof-cards">
+          <a href="/project/progress" class="home-proof-card">
+            <span class="home-proof-card-icon">📊</span>
+            <span class="home-proof-card-label">Build Progress</span>
+            <span class="home-proof-card-desc">Live sprint tracker. Milestone status. What's shipped, what's in flight.</span>
+          </a>
+          <a href="/project/architecture" class="home-proof-card">
+            <span class="home-proof-card-icon">🏗️</span>
+            <span class="home-proof-card-label">Architecture</span>
+            <span class="home-proof-card-desc">5-layer platform. Every design decision documented with rationale.</span>
+          </a>
+          <a href="/project/qa" class="home-proof-card">
+            <span class="home-proof-card-icon">✅</span>
+            <span class="home-proof-card-label">QA Strategy</span>
+            <span class="home-proof-card-desc">Binary criteria. Three launch gates. 22 checkboxes. No gray areas.</span>
+          </a>
+          <a href="/project/security" class="home-proof-card">
+            <span class="home-proof-card-icon">🔒</span>
+            <span class="home-proof-card-label">Security Posture</span>
+            <span class="home-proof-card-desc">42-item audit. 8 HIGH findings resolved before QA began.</span>
+          </a>
         </div>
-        <!-- Go/No-Go Gates -->
-        <div class="wai-gates">
-          <div class="wai-gate wai-gate-demo">
-            <span class="wai-gate-icon">🏁</span>
-            <div class="wai-gate-text">
-              <strong>Garrett Demo Gate</strong>
-              <span>All F-01 through F-09 must be GREEN. No exceptions.</span>
-            </div>
-          </div>
-          <div class="wai-gate wai-gate-beta">
-            <span class="wai-gate-icon">🚀</span>
-            <div class="wai-gate-text">
-              <strong>Beta Launch Gate</strong>
-              <span>All L-01 through L-04 must be GREEN in addition to all Functional items.</span>
-            </div>
-          </div>
-          <div class="wai-gate wai-gate-prod">
-            <span class="wai-gate-icon">⚔️</span>
-            <div class="wai-gate-text">
-              <strong>Production Launch Gate</strong>
-              <span>All S-01 through S-07 must be GREEN. All 22 items pass. All three gates cleared.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- OPEN ITEMS -->
-    <section class="wai-section wai-section-alt">
-      <div class="wai-inner">
-        <p class="wai-section-label">Open Items</p>
-        <h2 class="wai-section-title">Known. Owned. Tracked.</h2>
-        <p class="wai-section-subtitle">Every open item is documented, assigned, and mapped to the checklist items it unblocks. Nothing is hidden. Nothing is hoped for.</p>
-        <div class="wai-open-items">
-          <div class="wai-open-item-row wai-open-item-row-header">
-            <span>Task</span>
-            <span>Owner</span>
-            <span>Priority</span>
+        <div class="home-dual-cta">
+          <div class="home-dual-cta-inner">
+            <div class="home-dual-cta-block">
+              <p class="home-dual-cta-label">Ready to engage?</p>
+              <h3 class="home-dual-cta-heading">Start With the Sprint.</h3>
+              <p class="home-dual-cta-sub">€7,500–€15,000 · Credited back in full · Site live same day</p>
+              <a href="/offer" class="home-cta-primary">SEE THE FULL OFFER</a>
+            </div>
+            <div class="home-dual-cta-divider"></div>
+            <div class="home-dual-cta-block">
+              <p class="home-dual-cta-label">Want to see more?</p>
+              <h3 class="home-dual-cta-heading">Browse the Live Project.</h3>
+              <p class="home-dual-cta-sub">Architecture · QA · Security · Tickets · Progress</p>
+              <a href="/project" class="home-cta-secondary">ENTER THE PROJECT</a>
+            </div>
           </div>
-          <div class="wai-open-item-row">
-            <span class="wai-oi-task">Set <code>ALLOWED_ORIGIN</code> in staging <code>.env</code> on VPS — unblocks S-01</span>
-            <span class="wai-oi-owner">Steffen / Weston</span>
-            <span class="wai-priority-high">HIGH</span>
-          </div>
-          <div class="wai-open-item-row">
-            <span class="wai-oi-task">Implement Bridge write rate limit — ADR-W021 Redis INCR pattern — unblocks S-07</span>
-            <span class="wai-oi-owner">Jeremy</span>
-            <span class="wai-priority-high">HIGH</span>
-          </div>
-          <div class="wai-open-item-row">
-            <span class="wai-oi-task">Deploy security hardening to Vultr — WARAI-100–103 (docker-compose, nginx, harden-env, service restart)</span>
-            <span class="wai-oi-owner">Steffen / Jeremy</span>
-            <span class="wai-priority-high">HIGH</span>
-          </div>
-          <div class="wai-open-item-row">
-            <span class="wai-oi-task">Add input length limit on Gateway <code>/chat</code> message field — unblocks S-06</span>
-            <span class="wai-oi-owner">Jeremy</span>
-            <span class="wai-priority-medium">MEDIUM</span>
-          </div>
-          <div class="wai-open-item-row">
-            <span class="wai-oi-task">Set up GitHub Actions CI pipeline for both repos — unblocks CI-01</span>
-            <span class="wai-oi-owner">Jeremy</span>
-            <span class="wai-priority-medium">MEDIUM</span>
-          </div>
-          <div class="wai-open-item-row">
-            <span class="wai-oi-task">Provision Beta Firebase project</span>
-            <span class="wai-oi-owner">Weston</span>
-            <span class="wai-priority-medium">MEDIUM</span>
-          </div>
-          <div class="wai-open-item-row">
-            <span class="wai-oi-task">WARAI-82 Code Node pre-write validation gate — Dify workflow change, not code</span>
-            <span class="wai-oi-owner">Weston / Jeremy</span>
-            <span class="wai-priority-medium">MEDIUM</span>
-          </div>
+        </div>
+
+        <div class="wai-quote" style="margin-top: 64px;">
+          <p>"The biggest blocker to AI is going to be trust. Our culture — with Council, with Savage, with fifteen years — built a trust factor that no outside agency can replicate."</p>
+          <cite>— Garrett White · Warrior AI Vision Session · Miami 2026</cite>
         </div>
       </div>
     </section>
@@ -653,10 +201,10 @@
       <div class="wai-inner">
         <p class="wai-hero-eyebrow">Warrior AI Solutions</p>
         <h2 class="wai-hero-headline" style="font-size: clamp(2rem, 4vw, 3rem);">
-          <span>Where Truth Meets Time.</span>
+          <span>Truth Must Touch Time.</span>
         </h2>
         <p class="wai-hero-sub" style="margin: 0 auto;">
-          The platform is real. The architecture is solid. The gaps are known and owned. The path to 10,000 warriors is documented, costed, and ready to execute.
+          We do not sell hours. We sell outcomes. We do not send strategy decks. We send live sites. We do not promise transformation. We deliver it — or we don't take the engagement.
         </p>
       </div>
     </section>
@@ -665,46 +213,266 @@
 </template>
 
 <style scoped>
-/* SHOWCASE BANNER */
-.wai-showcase-banner {
-  background: linear-gradient(135deg, var(--wai-gold) 0%, #a8823a 100%);
-  padding: 32px 24px;
-}
-.wai-showcase-inner {
+/* HERO CTAs */
+.home-hero-ctas {
   display: flex;
-  gap: 20px;
-  align-items: flex-start;
-  max-width: 900px;
-  margin: 0 auto;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
-.wai-showcase-icon {
-  font-size: 32px;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-.wai-showcase-text {
-  color: var(--wai-navy-deep);
-  font-size: 1rem;
-  line-height: 1.7;
-  font-weight: 500;
-}
-.wai-showcase-text strong {
-  display: block;
-  font-size: 1.1rem;
-  margin-bottom: 8px;
-  font-weight: 700;
-}
-.wai-showcase-link {
+
+/* BUTTONS */
+.home-cta-primary {
   display: inline-block;
-  margin-top: 10px;
+  background: var(--wai-gold);
   color: var(--wai-navy-deep);
   font-weight: 700;
-  text-decoration: underline;
-  font-size: 0.9rem;
-  opacity: 0.85;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  padding: 16px 40px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.home-cta-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+.home-cta-secondary {
+  display: inline-block;
+  background: transparent;
+  color: var(--wai-gold);
+  border: 1px solid var(--wai-gold);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  padding: 16px 40px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.home-cta-secondary:hover {
+  background: var(--wai-gold);
+  color: var(--wai-navy-deep);
+}
+
+/* DELIVERABLE GRID */
+.home-deliverable-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 48px;
+}
+.home-deliverable-card {
+  background: var(--wai-navy-primary);
+  border: 1px solid var(--wai-navy-light);
+  border-radius: 12px;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: border-color 0.2s;
+}
+.home-deliverable-card:hover {
+  border-color: var(--wai-gold);
+}
+.home-card-featured {
+  border-color: var(--wai-gold);
+  background: linear-gradient(135deg, var(--wai-navy-primary) 0%, rgba(200,168,78,0.06) 100%);
+}
+.home-deliverable-icon {
+  font-size: 28px;
+}
+.home-deliverable-label {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--wai-text-primary);
+}
+.home-deliverable-desc {
+  font-size: 0.875rem;
+  color: var(--wai-gray-medium);
+  line-height: 1.6;
+}
+
+/* PROOF LINK */
+.home-proof-link {
+  margin-top: 40px;
+  text-align: center;
+}
+.home-proof-link-anchor {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: var(--wai-gold);
+  font-weight: 600;
+  font-size: 0.95rem;
   transition: opacity 0.2s;
 }
-.wai-showcase-link:hover {
-  opacity: 1;
+.home-proof-link-anchor:hover {
+  opacity: 0.8;
+}
+.home-proof-link-sub {
+  font-size: 0.8rem;
+  color: var(--wai-gray-medium);
+  font-weight: 400;
+}
+
+/* HOW IT WORKS STEPS */
+.home-steps {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-step {
+  display: flex;
+  gap: 28px;
+  background: var(--wai-navy-primary);
+  border: 1px solid var(--wai-navy-light);
+  border-radius: 12px;
+  padding: 28px 32px;
+}
+.home-step-connector {
+  text-align: center;
+  color: var(--wai-gold);
+  font-size: 1.5rem;
+  opacity: 0.5;
+  padding: 4px 0;
+}
+.home-step-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--wai-gold);
+  opacity: 0.35;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 4px;
+}
+.home-step-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--wai-text-primary);
+  margin-bottom: 10px;
+}
+.home-step-desc {
+  font-size: 0.9rem;
+  color: var(--wai-gray-medium);
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+.home-step-price {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--wai-gold);
+}
+.home-step-price span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--wai-gray-medium);
+}
+
+/* PROOF CARDS */
+.home-proof-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 48px;
+}
+.home-proof-card {
+  background: var(--wai-navy-primary);
+  border: 1px solid var(--wai-navy-light);
+  border-radius: 10px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.15s;
+}
+.home-proof-card:hover {
+  border-color: var(--wai-gold);
+  transform: translateY(-2px);
+}
+.home-proof-card-icon {
+  font-size: 22px;
+}
+.home-proof-card-label {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--wai-text-primary);
+}
+.home-proof-card-desc {
+  font-size: 0.82rem;
+  color: var(--wai-gray-medium);
+  line-height: 1.5;
+}
+
+/* DUAL CTA */
+.home-dual-cta {
+  margin-top: 64px;
+}
+.home-dual-cta-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background: var(--wai-navy-primary);
+  border: 1px solid var(--wai-navy-light);
+  border-radius: 16px;
+  padding: 48px;
+}
+@media (min-width: 700px) {
+  .home-dual-cta-inner {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.home-dual-cta-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.home-dual-cta-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--wai-gold);
+  margin: 0;
+}
+.home-dual-cta-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--wai-text-primary);
+  margin: 0;
+}
+.home-dual-cta-sub {
+  font-size: 0.85rem;
+  color: var(--wai-gray-medium);
+  margin: 0;
+  line-height: 1.5;
+}
+.home-dual-cta-divider {
+  width: 1px;
+  height: 120px;
+  background: var(--wai-navy-light);
+  flex-shrink: 0;
+  display: none;
+}
+@media (min-width: 700px) {
+  .home-dual-cta-divider {
+    display: block;
+  }
 }
 </style>

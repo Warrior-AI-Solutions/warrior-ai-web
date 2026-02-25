@@ -24,11 +24,17 @@ export default defineConfig({
 
     nav: [
       { text: 'Invest', link: '/offer' },
-      { text: 'Progress', link: '/progress' },
-      { text: 'Jira Tickets', link: '/jira' },
-      { text: 'QA Strategy', link: '/qa' },
-      { text: 'Architecture', link: '/architecture' },
-      { text: 'Security', link: '/security' },
+      {
+        text: 'Project',
+        items: [
+          { text: 'Project Overview', link: '/project/' },
+          { text: 'Build Progress', link: '/project/progress' },
+          { text: 'Architecture', link: '/project/architecture' },
+          { text: 'QA Strategy', link: '/project/qa' },
+          { text: 'Security', link: '/project/security' },
+          { text: 'Jira Tickets', link: '/project/jira' },
+        ]
+      },
     ],
 
     footer: {

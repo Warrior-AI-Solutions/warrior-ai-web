@@ -7,6 +7,7 @@ import SecurityPage from './SecurityPage.vue'
 import ProgressPage from './ProgressPage.vue'
 import JiraPage from './JiraPage.vue'
 import OfferPage from './OfferPage.vue'
+import ProjectPage from './ProjectPage.vue'
 
 export default {
   extends: DefaultTheme,
@@ -18,5 +19,6 @@ export default {
     app.component('ProgressPage', ProgressPage)
     app.component('JiraPage', JiraPage)
     app.component('OfferPage', OfferPage)
+    app.component('ProjectPage', ProjectPage)
   }
 }
