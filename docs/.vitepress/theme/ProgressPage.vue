@@ -1,6 +1,12 @@
 <template>
   <div class="wai-page">
 
+    <!-- SPRINT OUTPUT LABEL -->
+    <div class="sprint-output-label">
+      <span class="sprint-output-icon">⚡</span>
+      <span class="sprint-output-text">Sprint Output: <strong>Engineering Session</strong> — Milestone Plan &amp; Sprint Backlog</span>
+    </div>
+
     <!-- HERO -->
     <section class="wai-hero">
       <p class="wai-hero-eyebrow">Warrior AI Solutions — Build Progress</p>

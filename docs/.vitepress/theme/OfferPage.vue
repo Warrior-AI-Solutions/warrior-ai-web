@@ -19,14 +19,15 @@
       </div>
     </section>
 
-    <!-- PROOF BANNER: This Site IS the Product -->
+    <!-- PROOF BANNER: Warrior as Live Proof -->
     <section class="wai-showcase-banner">
       <div class="wai-inner">
         <div class="wai-showcase-inner">
           <div class="wai-showcase-icon">⚔️</div>
           <div class="wai-showcase-text">
-            <strong>This site is the deliverable.</strong>
-            The page you're reading right now is a live example of what Warrior AI Solutions builds for every client — a real-time stakeholder hub, proposal, documentation center, and QA dashboard in one. From discovery session to live URL: same day. This is not a mock-up. This is the Warrior AI app project site, actively serving the team building it. Your business gets this. Your investors see this. Your team ships from this.
+            <strong>Live proof: the Warrior app rebuild — $120,000, scoped in 2 days.</strong>
+            Warrior is our first client. The AI Readiness Sprint produced a fully scoped and documented $120,000 rebuild project — the new entry door to the entire Warrior ecosystem. The site you're reading is that deliverable. Your business gets exactly this. Same process. Same depth. Same day.
+            <a href="/project" style="display:inline-block;margin-top:10px;color:var(--wai-navy-deep);font-weight:700;text-decoration:underline;font-size:0.9rem;">Browse the Warrior project deliverable →</a>
           </div>
         </div>
       </div>
@@ -85,10 +86,10 @@
             <div class="offer-tier-body">
               <p class="offer-what-label">WHAT YOU GET</p>
               <ul class="offer-deliverables">
-                <li><span class="offer-check">✓</span> 2–4 hour structured discovery session (OMI-recorded, zero prep required)</li>
-                <li><span class="offer-check">✓</span> Full product brief — avatar, jobs-to-be-done, value proposition, ROI projection</li>
+                <li><span class="offer-check">✓</span> <strong>2–3 days of structured sessions across 6 departments</strong> — C-suite, technical, marketing, sales, engineering, QA (OMI-recorded, zero prep required)</li>
+                <li><span class="offer-check">✓</span> Full product brief — use cases, jobs-to-be-done, value proposition, ROI projection</li>
                 <li><span class="offer-check">✓</span> Technical scope — architecture, milestones, stack decisions, effort estimates</li>
-                <li><span class="offer-check">✓</span> Live stakeholder site — deployed same day, exactly like the one you're reading now</li>
+                <li><span class="offer-check">✓</span> Live stakeholder site — deployed same day, exactly like the Warrior project site you can browse now</li>
                 <li><span class="offer-check">✓</span> Investment summary with payment schedule, timeline, and ROI payback period</li>
                 <li><span class="offer-check">✓</span> Full implementation proposal with scope boundary and exclusions clearly defined</li>
               </ul>
@@ -344,7 +345,7 @@
       <div class="wai-inner">
         <p class="wai-section-label">Live Proof</p>
         <h2 class="wai-section-title">This Is Not a Demo. This Is the Product.</h2>
-        <p class="wai-section-subtitle">The Warrior AI App — the coaching platform you're seeing documented on this site — is an active Warrior AI Solutions implementation. Everything on this site represents real work, real infrastructure, real milestones. Your implementation would look like this.</p>
+        <p class="wai-section-subtitle">The Warrior app rebuild — a $120,000 project scoped in a 2-day AI Readiness Sprint — is our first and flagship implementation. Everything you see in the project section is real: real architecture, real QA gates, real security audit, real tickets. Your implementation would look exactly like this.</p>
 
         <div class="proof-grid">
           <div class="proof-card">
