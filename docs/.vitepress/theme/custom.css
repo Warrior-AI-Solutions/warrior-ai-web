@@ -393,6 +393,9 @@ body {
   background: var(--wai-gold-primary);
   flex-shrink: 0;
 }
+.wai-dot-green {
+  background: #4ade80;
+}
 
 /* --- Security Status Table --- */
 .wai-security-grid {

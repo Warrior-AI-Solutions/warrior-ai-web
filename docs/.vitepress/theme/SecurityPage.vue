@@ -14,9 +14,9 @@
       <div class="wai-hero-badges">
         <span class="wai-badge wai-badge-green">✓ WARAI-71 CORS Fixed</span>
         <span class="wai-badge wai-badge-green">✓ WARAI-72 Rate Limiting Live</span>
-        <span class="wai-badge wai-badge-red">9 HIGH findings open</span>
-        <span class="wai-badge wai-badge-gold">ADR-W026 Proposed</span>
-        <span class="wai-badge wai-badge-gold">ADR-W027 Proposed</span>
+        <span class="wai-badge wai-badge-green">✓ 8 HIGH findings resolved</span>
+        <span class="wai-badge wai-badge-green">✓ ADR-W026 Implemented</span>
+        <span class="wai-badge wai-badge-green">✓ ADR-W027 Implemented</span>
       </div>
     </section>
 
@@ -36,8 +36,8 @@
           <span class="wai-metric-label">Critical Findings</span>
         </div>
         <div>
-          <span class="wai-metric-value">9</span>
-          <span class="wai-metric-label">High Findings Open</span>
+          <span class="wai-metric-value wai-metric-green">8/8</span>
+          <span class="wai-metric-label">High Findings Resolved</span>
         </div>
         <div>
           <span class="wai-metric-value">9</span>
@@ -202,7 +202,7 @@
           <p>Restores cryptographic provenance through the Gateway→Dify→Bridge trust chain. The Gateway mints a short-lived HMAC-signed token containing the verified user_id. The Bridge verifies the HMAC before trusting any user_id from Dify conversation variables — preventing both direct Bridge exploitation and prompt injection-driven user_id substitution.</p>
           <div class="wai-adr-meta">
             <span>Resolves: WARAI-74, S-15, C-04</span>
-            <span class="wai-badge wai-badge-gold">Status: Proposed</span>
+            <span class="wai-badge wai-badge-green">✓ Status: Implemented</span>
           </div>
         </div>
         <div class="wai-adr-card">
@@ -211,7 +211,7 @@
           <p>Replaces the current flat Docker network with 5 named trust tiers. The dify-sandbox container (untrusted AI execution) is isolated from dify-db and dify-redis. The Bridge is isolated from Dify/LLM containers. Gateway and Bridge communicate only on a dedicated gateway-network. Plugin daemon is fully isolated on plugin-isolated.</p>
           <div class="wai-adr-meta">
             <span>Resolves: WARAI-77, S-10, S-20, B-03, B-04, C-07</span>
-            <span class="wai-badge wai-badge-gold">Status: Proposed</span>
+            <span class="wai-badge wai-badge-green">✓ Status: Implemented</span>
           </div>
         </div>
       </div>
@@ -222,17 +222,17 @@
       <h2 class="wai-section-title">JIRA Tickets — WARAI-74 through WARAI-82</h2>
       <div class="wai-table-wrap">
         <table class="wai-table">
-          <thead><tr><th>Ticket</th><th>Summary</th><th>Severity</th></tr></thead>
+          <thead><tr><th>Ticket</th><th>Summary</th><th>Severity</th><th>Status</th></tr></thead>
           <tbody>
-            <tr><td>WARAI-74</td><td>HMAC user_id signing (ADR-W026)</td><td><span class="wai-badge wai-badge-high">HIGH</span></td></tr>
-            <tr><td>WARAI-75</td><td>checkRevoked: true on verifyIdToken</td><td><span class="wai-badge wai-badge-high">HIGH</span></td></tr>
-            <tr><td>WARAI-76</td><td>Qdrant API key</td><td><span class="wai-badge wai-badge-high">HIGH</span></td></tr>
-            <tr><td>WARAI-77</td><td>Docker network segmentation (ADR-W027)</td><td><span class="wai-badge wai-badge-high">HIGH</span></td></tr>
-            <tr><td>WARAI-78</td><td>Injection pattern blocklist at Gateway</td><td><span class="wai-badge wai-badge-high">HIGH</span></td></tr>
-            <tr><td>WARAI-79</td><td>Identity anchor in all agent system prompts</td><td><span class="wai-badge wai-badge-high">HIGH</span></td></tr>
-            <tr><td>WARAI-80</td><td>.env permissions 600 + git history scan</td><td><span class="wai-badge wai-badge-high">HIGH</span></td></tr>
-            <tr><td>WARAI-81</td><td>Firestore Security Rules audit</td><td><span class="wai-badge wai-badge-high">HIGH</span></td></tr>
-            <tr><td>WARAI-82</td><td>Code Node pre-write validation gate</td><td><span class="wai-badge wai-badge-high">HIGH</span></td></tr>
+            <tr><td>WARAI-74</td><td>HMAC user_id signing (ADR-W026)</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-75</td><td>checkRevoked: true on verifyIdToken</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-76</td><td>Qdrant API key</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-77</td><td>Docker network segmentation (ADR-W027)</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-78</td><td>Injection pattern blocklist at Gateway</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-79</td><td>Identity anchor in all agent system prompts</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-80</td><td>.env permissions 600 + git history scan</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-81</td><td>Firestore Security Rules audit</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-82</td><td>Code Node pre-write validation gate</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-gold">Backlog</span></td></tr>
           </tbody>
         </table>
       </div>
@@ -245,28 +245,28 @@
 
       <h3 class="wai-subsection-title">Section A — LLM &amp; Prompt Injection (Key Items)</h3>
       <div class="wai-checklist">
-        <div class="wai-check-item wai-check-open"><span class="wai-check-id">A-01</span>Injection pattern blocklist active at Gateway before Dify handoff</div>
-        <div class="wai-check-item wai-check-open"><span class="wai-check-id">A-06</span>Identity anchor + security boundary present in all 7 agent system prompts</div>
+        <div class="wai-check-item wai-check-done"><span class="wai-check-id">A-01</span>Injection pattern blocklist active at Gateway before Dify handoff</div>
+        <div class="wai-check-item wai-check-done"><span class="wai-check-id">A-06</span>Identity anchor + security boundary present in all 7 agent system prompts</div>
         <div class="wai-check-item wai-check-open"><span class="wai-check-id">A-09</span>Pre-write Code Node validation gate implemented in Dify</div>
-        <div class="wai-check-item wai-check-open"><span class="wai-check-id">A-12</span>Qdrant collection write access restricted (API key + network isolation)</div>
+        <div class="wai-check-item wai-check-done"><span class="wai-check-id">A-12</span>Qdrant collection write access restricted (API key + network isolation)</div>
       </div>
 
       <h3 class="wai-subsection-title">Section B — Network &amp; Infrastructure (Key Items)</h3>
       <div class="wai-checklist">
         <div class="wai-check-item wai-check-open"><span class="wai-check-id">B-01</span>warrior-hono-gateway binds to 127.0.0.1:3000 — not 0.0.0.0:3000</div>
-        <div class="wai-check-item wai-check-open"><span class="wai-check-id">B-02</span>Qdrant API key set and enforced</div>
-        <div class="wai-check-item wai-check-open"><span class="wai-check-id">B-03</span>dify-sandbox in bridge mode, not host mode</div>
-        <div class="wai-check-item wai-check-open"><span class="wai-check-id">B-04</span>dify-sandbox cannot reach dify-db or dify-redis</div>
+        <div class="wai-check-item wai-check-done"><span class="wai-check-id">B-02</span>Qdrant API key set and enforced</div>
+        <div class="wai-check-item wai-check-done"><span class="wai-check-id">B-03</span>dify-sandbox in bridge mode, not host mode</div>
+        <div class="wai-check-item wai-check-done"><span class="wai-check-id">B-04</span>dify-sandbox cannot reach dify-db or dify-redis</div>
         <div class="wai-check-item wai-check-open"><span class="wai-check-id">B-07</span>SSH restricted — not open to 0.0.0.0/0</div>
       </div>
 
       <h3 class="wai-subsection-title">Section C — Data &amp; Authentication (Key Items)</h3>
       <div class="wai-checklist">
-        <div class="wai-check-item wai-check-open"><span class="wai-check-id">C-01</span>.env file permissions 600</div>
-        <div class="wai-check-item wai-check-open"><span class="wai-check-id">C-03</span>Gateway uses verifyIdToken(token, checkRevoked: true)</div>
-        <div class="wai-check-item wai-check-open"><span class="wai-check-id">C-04</span>Bridge write path uses HMAC-signed user token — not bare Dify variable</div>
-        <div class="wai-check-item wai-check-open"><span class="wai-check-id">C-06</span>Firestore Security Rules enforce request.auth.uid == userId</div>
-        <div class="wai-check-item wai-check-open"><span class="wai-check-id">C-07</span>Bridge container isolated from Dify/LLM containers</div>
+        <div class="wai-check-item wai-check-done"><span class="wai-check-id">C-01</span>.env file permissions 600</div>
+        <div class="wai-check-item wai-check-done"><span class="wai-check-id">C-03</span>Gateway uses verifyIdToken(token, checkRevoked: true)</div>
+        <div class="wai-check-item wai-check-done"><span class="wai-check-id">C-04</span>Bridge write path uses HMAC-signed user token — not bare Dify variable</div>
+        <div class="wai-check-item wai-check-done"><span class="wai-check-id">C-06</span>Firestore Security Rules enforce request.auth.uid == userId</div>
+        <div class="wai-check-item wai-check-done"><span class="wai-check-id">C-07</span>Bridge container isolated from Dify/LLM containers</div>
       </div>
     </section>
 
@@ -391,6 +391,23 @@
   background: rgba(255,255,255,0.03);
   border-color: var(--wai-border);
   color: var(--wai-text-muted);
+}
+.wai-check-done {
+  background: rgba(34,197,94,0.08);
+  border-color: rgba(34,197,94,0.3);
+  color: var(--vp-c-text-1);
+}
+.wai-check-done .wai-check-id {
+  background: rgba(34,197,94,0.2);
+  color: #4ade80;
+}
+.wai-check-done::before {
+  content: "✓ ";
+  color: #4ade80;
+  font-weight: 700;
+}
+.wai-metric-green {
+  color: #4ade80;
 }
 .wai-check-id {
   flex-shrink: 0;

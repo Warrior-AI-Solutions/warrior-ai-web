@@ -147,12 +147,12 @@
           <div class="wai-pillar-card">
             <span class="wai-pillar-icon">🔒</span>
             <h3 class="wai-pillar-title">Security</h3>
-            <p class="wai-pillar-desc">Two critical gaps resolved pre-launch. Auth architecture verified. Full audit (prompt injection, Dify sandboxing) scheduled as dedicated session.</p>
+            <p class="wai-pillar-desc">Full 42-item security audit complete. 8 HIGH findings resolved across LLM, network, and auth layers. Two ADRs implemented. Code merged to dev.</p>
             <div class="wai-pillar-stats">
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>CORS: wildcard → env-var controlled</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>Rate limiting: 20 req/min per user</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>Bridge: localhost-only binding</div>
-              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot"></div>Zod validation on all write endpoints</div>
+              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot wai-dot-green"></div>HMAC-signed user_id chain (ADR-W026)</div>
+              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot wai-dot-green"></div>Docker 5-tier network segmentation (ADR-W027)</div>
+              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot wai-dot-green"></div>Injection blocklist + identity anchors in all agents</div>
+              <div class="wai-pillar-stat"><div class="wai-pillar-stat-dot wai-dot-green"></div>Firestore rules + .env hardening + Qdrant API key</div>
             </div>
           </div>
         </div>
@@ -212,9 +212,44 @@
             <span class="wai-sec-status sec-pending">PRE-BETA</span>
           </div>
           <div class="wai-sec-row">
-            <span class="wai-sec-item">Full security audit — prompt injection, Dify sandboxing, personal project patterns</span>
-            <span class="wai-sec-ticket">separate session</span>
-            <span class="wai-sec-status sec-planned">PRE-PROD</span>
+            <span class="wai-sec-item">HMAC-SHA256 signed user_id token — Gateway mints, Bridge verifies (ADR-W026)</span>
+            <span class="wai-sec-ticket">WARAI-74</span>
+            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
+          </div>
+          <div class="wai-sec-row">
+            <span class="wai-sec-item">Firebase token revocation check — <code>checkRevoked: true</code> eliminates 1h replay window</span>
+            <span class="wai-sec-ticket">WARAI-75</span>
+            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
+          </div>
+          <div class="wai-sec-row">
+            <span class="wai-sec-item">Qdrant API key authentication — corpus reads and writes now gated</span>
+            <span class="wai-sec-ticket">WARAI-76</span>
+            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
+          </div>
+          <div class="wai-sec-row">
+            <span class="wai-sec-item">Docker network segmentation — 5 named trust tiers replacing flat network (ADR-W027)</span>
+            <span class="wai-sec-ticket">WARAI-77</span>
+            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
+          </div>
+          <div class="wai-sec-row">
+            <span class="wai-sec-item">Injection pattern blocklist at Gateway — 20+ patterns blocked before Dify handoff</span>
+            <span class="wai-sec-ticket">WARAI-78</span>
+            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
+          </div>
+          <div class="wai-sec-row">
+            <span class="wai-sec-item">Identity anchor + security boundary in all 7 agent system prompts</span>
+            <span class="wai-sec-ticket">WARAI-79</span>
+            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
+          </div>
+          <div class="wai-sec-row">
+            <span class="wai-sec-item">.env permissions 600 enforced + git history scan script</span>
+            <span class="wai-sec-ticket">WARAI-80</span>
+            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
+          </div>
+          <div class="wai-sec-row">
+            <span class="wai-sec-item">Firestore Security Rules — <code>request.auth.uid == userId</code> scoping enforced</span>
+            <span class="wai-sec-ticket">WARAI-81</span>
+            <span class="wai-sec-status sec-fixed">✓ MERGED</span>
           </div>
         </div>
       </div>
@@ -571,8 +606,8 @@
             <span class="wai-priority-high">HIGH</span>
           </div>
           <div class="wai-open-item-row">
-            <span class="wai-oi-task">Build unit test suites for both repos — unblocks F-01, F-02</span>
-            <span class="wai-oi-owner">Jeremy</span>
+            <span class="wai-oi-task">Deploy security hardening to Vultr — WARAI-100–103 (docker-compose, nginx, harden-env, service restart)</span>
+            <span class="wai-oi-owner">Steffen / Jeremy</span>
             <span class="wai-priority-high">HIGH</span>
           </div>
           <div class="wai-open-item-row">
@@ -591,9 +626,9 @@
             <span class="wai-priority-medium">MEDIUM</span>
           </div>
           <div class="wai-open-item-row">
-            <span class="wai-oi-task">Full security audit — prompt injection, Dify sandboxing — dedicated session</span>
-            <span class="wai-oi-owner">Separate session</span>
-            <span class="wai-priority-high">HIGH</span>
+            <span class="wai-oi-task">WARAI-82 Code Node pre-write validation gate — Dify workflow change, not code</span>
+            <span class="wai-oi-owner">Weston / Jeremy</span>
+            <span class="wai-priority-medium">MEDIUM</span>
           </div>
         </div>
       </div>
