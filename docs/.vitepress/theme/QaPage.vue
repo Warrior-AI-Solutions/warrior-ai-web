@@ -20,8 +20,8 @@
       <div class="wai-hero-badges">
         <span class="wai-badge wai-badge-green">✓ WARAI-71 CORS Fixed</span>
         <span class="wai-badge wai-badge-green">✓ WARAI-72 Rate Limiting Live</span>
-        <span class="wai-badge wai-badge-gold">42 Security Checklist Items</span>
-        <span class="wai-badge wai-badge-blue">22 Anna's Gate Items</span>
+        <span class="wai-badge wai-badge-green">✓ 8 HIGH Security Findings Resolved</span>
+        <span class="wai-badge wai-badge-gold">⚡ M5 Voice Coaching — QA Active</span>
       </div>
     </section>
 
@@ -428,7 +428,7 @@
 
     <!-- FOOTER -->
     <footer class="wai-footer">
-      <p>Warrior AI Solutions · QA Strategy · Last updated 2026-02-24</p>
+      <p>Warrior AI Solutions · QA Strategy · Last updated 2026-02-25</p>
       <p>See also: <a href="/architecture">Architecture Overview</a> · <a href="/security">Security Documentation</a></p>
     </footer>
 

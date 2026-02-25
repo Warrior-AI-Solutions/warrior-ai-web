@@ -19,9 +19,9 @@
       </p>
       <div class="wai-hero-badges">
         <span class="wai-badge wai-badge-green">✓ Backend 100% Live</span>
-        <span class="wai-badge wai-badge-green">✓ M1 · M2 · M10 Merged</span>
-        <span class="wai-badge wai-badge-gold">⚡ M3 + M4 Coding Now</span>
-        <span class="wai-badge wai-badge-blue">🎯 V0 Prototype: ~7 Days Out</span>
+        <span class="wai-badge wai-badge-green">✓ M1 · M2 · M3 · M4 · M10 Done</span>
+        <span class="wai-badge wai-badge-gold">⚡ M5 Active — Voice Coaching</span>
+        <span class="wai-badge wai-badge-blue">🎯 M6 Next — Door &amp; Proof System</span>
       </div>
     </section>
 
@@ -38,15 +38,15 @@
           <span class="wai-metric-label">Backend Days Completed</span>
         </div>
         <div>
-          <span class="wai-metric-value">3</span>
-          <span class="wai-metric-label">Flutter Milestones Merged</span>
+          <span class="wai-metric-value">5</span>
+          <span class="wai-metric-label">Flutter Milestones Done</span>
         </div>
         <div>
-          <span class="wai-metric-value wai-metric-gold">2</span>
-          <span class="wai-metric-label">Milestones Active Now</span>
+          <span class="wai-metric-value wai-metric-gold">1</span>
+          <span class="wai-metric-label">Milestone Active Now</span>
         </div>
         <div>
-          <span class="wai-metric-value">~7</span>
+          <span class="wai-metric-value">~10</span>
           <span class="wai-metric-label">Days to V0 Prototype</span>
         </div>
         <div>
@@ -225,13 +225,13 @@
               </ul>
             </div>
 
-            <!-- ACTIVE -->
-            <div class="prog-sprint-row prog-active">
+            <!-- DONE — M3, M4 complete -->
+            <div class="prog-sprint-row prog-done">
               <div class="prog-sprint-head">
-                <span class="prog-sprint-tag prog-tag-active">M3</span>
+                <span class="prog-sprint-tag prog-tag-m1">M3</span>
                 <span class="prog-sprint-name">Onboarding Flow</span>
                 <span class="prog-sprint-days">~3-4 days</span>
-                <span class="prog-status-dot prog-dot-gold">⚡</span>
+                <span class="prog-status-dot prog-dot-green">✓</span>
               </div>
               <ul class="prog-sprint-items">
                 <li>Step 1: Welcome &amp; Pledge screen (Firebase write on accept)</li>
@@ -242,12 +242,12 @@
               </ul>
             </div>
 
-            <div class="prog-sprint-row prog-active">
+            <div class="prog-sprint-row prog-done">
               <div class="prog-sprint-head">
-                <span class="prog-sprint-tag prog-tag-active">M4</span>
+                <span class="prog-sprint-tag prog-tag-m1">M4</span>
                 <span class="prog-sprint-name">Daily Command Center</span>
                 <span class="prog-sprint-days">~3-4 days</span>
-                <span class="prog-status-dot prog-dot-gold">⚡</span>
+                <span class="prog-status-dot prog-dot-green">✓</span>
               </div>
               <ul class="prog-sprint-items">
                 <li>STACK NOW button — pulsing Gold CTA, launches coaching session</li>
@@ -258,13 +258,13 @@
               </ul>
             </div>
 
-            <!-- NEXT — V0 critical path -->
-            <div class="prog-sprint-row prog-next">
+            <!-- ACTIVE — M5 coding now -->
+            <div class="prog-sprint-row prog-active">
               <div class="prog-sprint-head">
-                <span class="prog-sprint-tag prog-tag-next">M5</span>
+                <span class="prog-sprint-tag prog-tag-active">M5</span>
                 <span class="prog-sprint-name">Active Stack Session (Voice Coaching)</span>
                 <span class="prog-sprint-days">~4-5 days</span>
-                <span class="prog-status-dot prog-dot-gray">→</span>
+                <span class="prog-status-dot prog-dot-gold">⚡</span>
               </div>
               <ul class="prog-sprint-items">
                 <li>OMI waveform + live transcript (reused, not rewritten)</li>
@@ -275,6 +275,7 @@
               </ul>
             </div>
 
+            <!-- NEXT — V0 critical path -->
             <div class="prog-sprint-row prog-next">
               <div class="prog-sprint-head">
                 <span class="prog-sprint-tag prog-tag-next">M6</span>

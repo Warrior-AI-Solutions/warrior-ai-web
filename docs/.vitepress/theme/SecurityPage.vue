@@ -292,7 +292,7 @@
 
     <!-- FOOTER -->
     <footer class="wai-footer">
-      <p>Warrior AI Solutions · Security Documentation · Last updated 2026-02-24</p>
+      <p>Warrior AI Solutions · Security Documentation · Last updated 2026-02-25</p>
       <p>See also: <a href="/qa">QA Strategy</a> · <a href="/architecture">Architecture Overview</a></p>
     </footer>
 
