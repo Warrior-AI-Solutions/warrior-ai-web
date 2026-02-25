@@ -222,16 +222,16 @@
       <h2 class="wai-section-title">JIRA Tickets — WARAI-74 through WARAI-82</h2>
       <div class="wai-table-wrap">
         <table class="wai-table">
-          <thead><tr><th>Ticket</th><th>Summary</th><th>Severity</th><th>Status</th></tr></thead>
+          <thead><tr><th>Ticket</th><th>Summary</th><th>Was</th><th>Status</th></tr></thead>
           <tbody>
-            <tr><td>WARAI-74</td><td>HMAC user_id signing (ADR-W026)</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-75</td><td>checkRevoked: true on verifyIdToken</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-76</td><td>Qdrant API key</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-77</td><td>Docker network segmentation (ADR-W027)</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-78</td><td>Injection pattern blocklist at Gateway</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-79</td><td>Identity anchor in all agent system prompts</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-80</td><td>.env permissions 600 + git history scan</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
-            <tr><td>WARAI-81</td><td>Firestore Security Rules audit</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-74</td><td>HMAC user_id signing (ADR-W026)</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-75</td><td>checkRevoked: true on verifyIdToken</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-76</td><td>Qdrant API key</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-77</td><td>Docker network segmentation (ADR-W027)</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-78</td><td>Injection pattern blocklist at Gateway</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-79</td><td>Identity anchor in all agent system prompts</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-80</td><td>.env permissions 600 + git history scan</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
+            <tr><td>WARAI-81</td><td>Firestore Security Rules audit</td><td><span class="wai-badge wai-badge-resolved">HIGH</span></td><td><span class="wai-badge wai-badge-green">✓ Fertig</span></td></tr>
             <tr><td>WARAI-82</td><td>Code Node pre-write validation gate</td><td><span class="wai-badge wai-badge-high">HIGH</span></td><td><span class="wai-badge wai-badge-gold">Backlog</span></td></tr>
           </tbody>
         </table>
@@ -343,6 +343,7 @@
 
 .wai-badge-crit { background: rgba(239,68,68,0.2); color: #f87171; border-color: rgba(239,68,68,0.4); font-weight: 700; }
 .wai-badge-high { background: rgba(245,158,11,0.15); color: #fbbf24; border-color: rgba(245,158,11,0.3); }
+.wai-badge-resolved { background: rgba(255,255,255,0.04); color: var(--vp-c-text-3); border-color: rgba(255,255,255,0.08); text-decoration: line-through; opacity: 0.6; }
 
 .wai-adr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
 .wai-adr-card {
