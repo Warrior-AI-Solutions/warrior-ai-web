@@ -513,22 +513,22 @@
         <p class="wai-section-label">Resources</p>
         <h2 class="wai-section-title">Go Deeper.</h2>
         <div class="prog-links-grid">
-          <a href="/architecture" class="prog-link-card">
+          <a href="/project/architecture" class="prog-link-card">
             <span class="prog-link-icon">🏛</span>
             <div class="prog-link-title">Architecture</div>
             <div class="prog-link-desc">Full 5-layer system design, data flow, and ADR decisions</div>
           </a>
-          <a href="/security" class="prog-link-card">
+          <a href="/project/security" class="prog-link-card">
             <span class="prog-link-icon">🔒</span>
             <div class="prog-link-title">Security</div>
             <div class="prog-link-desc">42-item audit, all 8 HIGH findings resolved, network diagram</div>
           </a>
-          <a href="/qa" class="prog-link-card">
+          <a href="/project/qa" class="prog-link-card">
             <span class="prog-link-icon">🧪</span>
             <div class="prog-link-title">QA Strategy</div>
             <div class="prog-link-desc">Test pyramid, load test thresholds, Anna's sign-off criteria</div>
           </a>
-          <a href="/jira" class="prog-link-card">
+          <a href="/project/jira" class="prog-link-card">
             <span class="prog-link-icon">🎫</span>
             <div class="prog-link-title">Jira Tickets</div>
             <div class="prog-link-desc">Every ticket, every milestone, direct links to the board</div>

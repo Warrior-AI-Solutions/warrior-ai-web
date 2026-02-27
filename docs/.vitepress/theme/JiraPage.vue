@@ -434,22 +434,22 @@
         </div>
 
         <div class="jira-links-grid">
-          <a href="/progress" class="jira-link-card">
+          <a href="/project/progress" class="jira-link-card">
             <span class="jira-link-icon">📊</span>
             <div class="jira-link-title">Build Progress</div>
             <div class="jira-link-desc">Visual timeline of all sprints and milestones with status badges</div>
           </a>
-          <a href="/architecture" class="jira-link-card">
+          <a href="/project/architecture" class="jira-link-card">
             <span class="jira-link-icon">🏛</span>
             <div class="jira-link-title">Architecture</div>
             <div class="jira-link-desc">Full 5-layer system design, data flow, and ADR decisions</div>
           </a>
-          <a href="/security" class="jira-link-card">
+          <a href="/project/security" class="jira-link-card">
             <span class="jira-link-icon">🔒</span>
             <div class="jira-link-title">Security</div>
             <div class="jira-link-desc">42-item audit, all 8 HIGH findings resolved, network diagram</div>
           </a>
-          <a href="/qa" class="jira-link-card">
+          <a href="/project/qa" class="jira-link-card">
             <span class="jira-link-icon">🧪</span>
             <div class="jira-link-title">QA Strategy</div>
             <div class="jira-link-desc">Test pyramid, load test thresholds, Anna's sign-off criteria</div>
