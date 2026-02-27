@@ -19,8 +19,8 @@
       </p>
       <div class="wai-hero-badges">
         <span class="wai-badge wai-badge-green">✓ Backend: 5 Sprints Done</span>
-        <span class="wai-badge wai-badge-green">✓ Flutter: M1 · M2 · M3 · M4 · M5 · M10 Done</span>
-        <span class="wai-badge wai-badge-gold">⚡ M6 Active — Door &amp; Proof System</span>
+        <span class="wai-badge wai-badge-green">✓ Flutter: M1 · M2 · M3 · M4 · M5 · M6 · M10 Done</span>
+        <span class="wai-badge wai-badge-gold">⚡ V0 Polish — 3 Tickets Remaining</span>
         <span class="wai-badge wai-badge-blue">Board: wakeupwarrior.atlassian.net</span>
       </div>
     </section>
@@ -52,7 +52,7 @@
       <div class="wai-inner">
         <p class="wai-section-label">SP1 — Flutter App</p>
         <h2 class="wai-section-title">Flutter Milestones (M1–M10)</h2>
-        <p class="wai-section-subtitle">Ten feature milestones from design system to brotherhood feed. M1–M2–M3–M4–M5–M10 done. M6 Door &amp; Proof System active. V0 gate in sight.</p>
+        <p class="wai-section-subtitle">Ten feature milestones from design system to brotherhood feed. M1–M2–M3–M4–M5–M6–M10 all done. V0 Alpha at final polish — 3 tickets remaining.</p>
 
         <div class="jira-table-wrap">
           <table class="jira-table">
@@ -101,12 +101,12 @@
                 <td>~4–5 days</td>
                 <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
               </tr>
-              <tr class="jira-row-active">
+              <tr class="jira-row-done">
                 <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-92" target="_blank" class="jira-ticket-link">WARAI-92</a></td>
-                <td><span class="jira-milestone jira-m-active">M6</span> Door &amp; Proof System</td>
-                <td>Door creation (5 required fields), 4 proof types, Firebase Storage upload, binary green/red truth state <strong class="jira-v0-flag">← V0 HERE</strong></td>
+                <td><span class="jira-milestone jira-m-done">M6</span> Door &amp; Proof System</td>
+                <td>Door creation (5 required fields), 4 proof types, Firebase Storage upload, binary green/red truth state <strong class="jira-v0-flag">✓ Fertig — Feb 25, 2026</strong></td>
                 <td>~3–4 days</td>
-                <td><span class="jira-status-pill jira-pill-active">In Build</span></td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
               </tr>
               <tr class="jira-row-v1">
                 <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-93" target="_blank" class="jira-ticket-link">WARAI-93</a></td>
@@ -147,7 +147,7 @@
       <div class="wai-inner">
         <p class="wai-section-label">Alpha Gate</p>
         <h2 class="wai-section-title">V0 Prototype Criteria</h2>
-        <p class="wai-section-subtitle">The gate that defines when V0 ships. All four metrics must pass before alpha release.</p>
+        <p class="wai-section-subtitle">All core milestones done. Three polish tickets remain before alpha ships. Gate criteria defined below.</p>
 
         <div class="jira-v0-card">
           <div class="jira-v0-header">
@@ -156,7 +156,7 @@
               <div class="jira-v0-ticket-title">WARAI-98 — V0 Alpha Gate</div>
               <a href="https://wakeupwarrior.atlassian.net/browse/WARAI-98" target="_blank" class="jira-v0-link">wakeupwarrior.atlassian.net/browse/WARAI-98 ↗</a>
             </div>
-            <span class="jira-status-pill jira-pill-active">Ready for AI</span>
+            <span class="jira-status-pill jira-pill-active">Final Polish — 3 Tickets</span>
           </div>
           <div class="jira-v0-metrics">
             <div class="jira-v0-metric">
@@ -176,6 +176,39 @@
               <div class="jira-v0-metric-label">Audio capture success</div>
             </div>
           </div>
+        </div>
+
+        <div class="jira-table-wrap" style="margin-top: 1.5rem;">
+          <table class="jira-table">
+            <thead>
+              <tr>
+                <th>Ticket</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="jira-row-active">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-154" target="_blank" class="jira-ticket-link">WARAI-154</a></td>
+                <td><span class="jira-cat-tag jira-cat-bug">Bug</span></td>
+                <td>Fix 404 — align Flutter gateway client with deployed route contract</td>
+                <td><span class="jira-status-pill jira-pill-backlog">Backlog</span></td>
+              </tr>
+              <tr class="jira-row-next">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-152" target="_blank" class="jira-ticket-link">WARAI-152</a></td>
+                <td><span class="jira-cat-tag jira-cat-bug">Bug</span></td>
+                <td>Fix X button on coaching screen — closes session incorrectly</td>
+                <td><span class="jira-status-pill jira-pill-next">Wird überprüft</span></td>
+              </tr>
+              <tr class="jira-row-next">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-151" target="_blank" class="jira-ticket-link">WARAI-151</a></td>
+                <td><span class="jira-cat-tag jira-cat-cross">Branding</span></td>
+                <td>Strip OMI branding from onboarding screens — replace with Warrior assets</td>
+                <td><span class="jira-status-pill jira-pill-next">Wird überprüft</span></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
@@ -245,7 +278,7 @@
       <div class="wai-inner">
         <p class="wai-section-label">Security &amp; Cross-Cutting</p>
         <h2 class="wai-section-title">Security Audit + Cross-Cutting Tickets</h2>
-        <p class="wai-section-subtitle">Security hardening tickets and cross-cutting concerns that span both backend and Flutter tracks.</p>
+        <p class="wai-section-subtitle">Security hardening, deployment, monetization, auth, and branding tickets spanning both backend and Flutter tracks — all complete.</p>
 
         <div class="jira-table-wrap">
           <table class="jira-table">
@@ -262,7 +295,7 @@
                 <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-97" target="_blank" class="jira-ticket-link">WARAI-97</a></td>
                 <td><span class="jira-cat-tag jira-cat-cross">Cross-Cutting</span></td>
                 <td>Cross-cutting verification: package rename omi→warrior_ai validation, 2762 import checks, 461 files</td>
-                <td><span class="jira-status-pill jira-pill-next">In Progress</span></td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
               </tr>
               <tr class="jira-row-done">
                 <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-100" target="_blank" class="jira-ticket-link">WARAI-100</a></td>
@@ -294,35 +327,89 @@
                 <td>Package rename: omi → warrior_ai across 461 files, 2762 import statements updated</td>
                 <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
               </tr>
-              <tr class="jira-row-next">
+              <tr class="jira-row-done">
                 <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-114" target="_blank" class="jira-ticket-link">WARAI-114</a></td>
-                <td><span class="jira-cat-tag jira-cat-bug">Bug</span></td>
-                <td>OMI inherited bugs: voice recorder context leak, Timer.periodic race condition, Stripe await race, sensitive print() log</td>
-                <td><span class="jira-status-pill jira-pill-active">Ready for AI</span></td>
+                <td><span class="jira-cat-tag jira-cat-bug">Bug Fix</span></td>
+                <td>OMI inherited bugs resolved: voice recorder context leak, Timer.periodic race condition, Stripe await race, sensitive print() log</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
               </tr>
-              <tr class="jira-row-next">
+              <tr class="jira-row-done">
                 <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-119" target="_blank" class="jira-ticket-link">WARAI-119</a></td>
-                <td><span class="jira-cat-tag jira-cat-cross">M6 Prereq</span></td>
-                <td>Close SessionPhase state machine — endSession() must transition to completed (M6 door hook)</td>
-                <td><span class="jira-status-pill jira-pill-active">Ready for AI</span></td>
+                <td><span class="jira-cat-tag jira-cat-cross">Session</span></td>
+                <td>SessionPhase state machine closed — endSession() transitions to completed, M6 door hook wired</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
               </tr>
-              <tr class="jira-row-next">
+              <tr class="jira-row-done">
                 <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-120" target="_blank" class="jira-ticket-link">WARAI-120</a></td>
-                <td><span class="jira-cat-tag jira-cat-bug">Production Blocker</span></td>
-                <td>Wire real Firebase UID into startSession() — replace 'demo-user' placeholder (security + data integrity)</td>
-                <td><span class="jira-status-pill jira-pill-active">Ready for AI</span></td>
+                <td><span class="jira-cat-tag jira-cat-bug">Bug Fix</span></td>
+                <td>Real Firebase UID wired into startSession() — 'demo-user' placeholder removed</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
               </tr>
-              <tr class="jira-row-next">
+              <tr class="jira-row-done">
                 <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-121" target="_blank" class="jira-ticket-link">WARAI-121</a></td>
-                <td><span class="jira-cat-tag jira-cat-cross">M6 Prereq</span></td>
-                <td>Configure Firebase Storage bucket for proof photo uploads with 30-day auto-delete lifecycle rule</td>
-                <td><span class="jira-status-pill jira-pill-active">Ready for AI</span></td>
+                <td><span class="jira-cat-tag jira-cat-cross">Infrastructure</span></td>
+                <td>Firebase Storage bucket configured for proof photo uploads with 30-day auto-delete lifecycle rule</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
               </tr>
-              <tr class="jira-row-next">
+              <tr class="jira-row-done">
                 <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-122" target="_blank" class="jira-ticket-link">WARAI-122</a></td>
-                <td><span class="jira-cat-tag jira-cat-bug">Bug</span></td>
-                <td>Language dialog appears before sign-in on token expiry — race condition in getUserPrimaryLanguage()</td>
-                <td><span class="jira-status-pill jira-pill-active">Ready for AI</span></td>
+                <td><span class="jira-cat-tag jira-cat-bug">Bug Fix</span></td>
+                <td>Language dialog race condition fixed — no longer appears before sign-in on token expiry</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
+              </tr>
+              <tr class="jira-row-done">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-124" target="_blank" class="jira-ticket-link">WARAI-124</a></td>
+                <td><span class="jira-cat-tag jira-cat-cross">Monetization</span></td>
+                <td>Subscription tiers defined — Warrior, Council, Savage with feature gating</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
+              </tr>
+              <tr class="jira-row-done">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-125" target="_blank" class="jira-ticket-link">WARAI-125</a></td>
+                <td><span class="jira-cat-tag jira-cat-cross">Monetization</span></td>
+                <td>RBAC system built — role-based access control across all Gateway endpoints</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
+              </tr>
+              <tr class="jira-row-done">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-127" target="_blank" class="jira-ticket-link">WARAI-127</a></td>
+                <td><span class="jira-cat-tag jira-cat-cross">Deployment</span></td>
+                <td>Cloudflare Tunnel gateway routing — api.wakeupwarrior.ai live, zero open ports</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
+              </tr>
+              <tr class="jira-row-done">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-129" target="_blank" class="jira-ticket-link">WARAI-129</a></td>
+                <td><span class="jira-cat-tag jira-cat-cross">Monetization</span></td>
+                <td>Stripe integration wired to Firebase user profiles — subscription status synced</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
+              </tr>
+              <tr class="jira-row-done">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-132" target="_blank" class="jira-ticket-link">WARAI-132</a></td>
+                <td><span class="jira-cat-tag jira-cat-sec">Auth</span></td>
+                <td>Firebase token wired through Hono Gateway — all requests validated end-to-end</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
+              </tr>
+              <tr class="jira-row-done">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-137" target="_blank" class="jira-ticket-link">WARAI-137</a></td>
+                <td><span class="jira-cat-tag jira-cat-cross">Monetization</span></td>
+                <td>Stripe sandbox + webhook handlers live — subscription events processed correctly</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
+              </tr>
+              <tr class="jira-row-done">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-138" target="_blank" class="jira-ticket-link">WARAI-138</a></td>
+                <td><span class="jira-cat-tag jira-cat-sec">Auth</span></td>
+                <td>Google OAuth sign-in fixed — auth flow complete end-to-end</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
+              </tr>
+              <tr class="jira-row-done">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-147" target="_blank" class="jira-ticket-link">WARAI-147</a></td>
+                <td><span class="jira-cat-tag jira-cat-cross">Branding</span></td>
+                <td>Forge Red palette migration — app design system updated from Navy/Gold to Warrior Red</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
+              </tr>
+              <tr class="jira-row-done">
+                <td><a href="https://wakeupwarrior.atlassian.net/browse/WARAI-149" target="_blank" class="jira-ticket-link">WARAI-149</a></td>
+                <td><span class="jira-cat-tag jira-cat-sec">Auth</span></td>
+                <td>Email/password authentication complete — full auth coverage (Google + email/password)</td>
+                <td><span class="jira-status-pill jira-pill-done">Fertig</span></td>
               </tr>
             </tbody>
           </table>

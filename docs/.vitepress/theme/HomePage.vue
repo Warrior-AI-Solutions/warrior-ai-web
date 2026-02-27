@@ -13,10 +13,10 @@
       </p>
       <div class="wai-hero-badges">
         <span class="wai-badge wai-badge-gold">⚡ $120,000 Project Scoped</span>
-        <span class="wai-badge wai-badge-green">✓ Architecture Defined</span>
-        <span class="wai-badge wai-badge-blue">☁ 7 Specialist Agents Designed</span>
-        <span class="wai-badge wai-badge-gold">🔒 QA Gates Established</span>
-        <span class="wai-badge wai-badge-green">✓ Security Audit Complete</span>
+        <span class="wai-badge wai-badge-green">✓ All M1–M6 + M10 Done</span>
+        <span class="wai-badge wai-badge-green">✓ Backend + Stripe + Auth Live</span>
+        <span class="wai-badge wai-badge-gold">🏁 V0 Alpha — Final 3 Tickets</span>
+        <span class="wai-badge wai-badge-green">✓ api.wakeupwarrior.ai Live</span>
       </div>
       <div class="home-hero-ctas">
         <a href="/project" class="home-cta-primary">SEE THE FULL DELIVERABLE</a>
@@ -75,27 +75,27 @@
             <div class="home-transform-items">
               <div class="home-transform-item">
                 <span class="home-transform-dot home-dot-gold"></span>
-                <strong>$120,000 rebuild scoped and documented</strong>
+                <strong>All 7 Flutter milestones (M1–M6 + M10) shipped</strong>
               </div>
               <div class="home-transform-item">
                 <span class="home-transform-dot home-dot-gold"></span>
-                5-layer architecture with stack decisions and rationale
+                api.wakeupwarrior.ai live via Cloudflare Tunnel
               </div>
               <div class="home-transform-item">
                 <span class="home-transform-dot home-dot-gold"></span>
-                7 specialist AI agents designed and named
+                Stripe + RBAC + full auth system complete
               </div>
               <div class="home-transform-item">
                 <span class="home-transform-dot home-dot-gold"></span>
-                4 milestones with timelines and owners
+                Warrior branding: Forge Red palette, animated splash, new app icon
               </div>
               <div class="home-transform-item">
                 <span class="home-transform-dot home-dot-gold"></span>
-                22 binary QA criteria across 3 launch gates
+                V0 Alpha at final polish — 3 tickets from launch gate
               </div>
               <div class="home-transform-item">
                 <span class="home-transform-dot home-dot-gold"></span>
-                42-item security audit, 8 HIGH findings resolved
+                42-item security audit, all HIGH findings resolved
               </div>
             </div>
           </div>
@@ -191,7 +191,7 @@
           <a href="/project/progress" class="home-proof-card">
             <span class="home-proof-card-icon">📊</span>
             <span class="home-proof-card-label">Build Progress</span>
-            <span class="home-proof-card-desc">Live milestone tracker. Backend live on Vultr. Flutter in development. V0 gate criteria active.</span>
+            <span class="home-proof-card-desc">Live milestone tracker. All M1–M6 + M10 done. api.wakeupwarrior.ai live. V0 Alpha at final polish gate.</span>
           </a>
           <a href="/project/architecture" class="home-proof-card">
             <span class="home-proof-card-icon">🏗️</span>

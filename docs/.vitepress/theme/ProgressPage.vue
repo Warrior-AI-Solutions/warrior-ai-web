@@ -15,13 +15,13 @@
         <span>Here's Where We Stand.</span>
       </h1>
       <p class="wai-hero-sub">
-        A complete picture of every sprint, every milestone, and every line of infrastructure built to bring the Warrior Flutter App to life. Backend done. App in build. Prototype in sight.
+        A complete picture of every sprint, every milestone, and every line of infrastructure built to bring the Warrior Flutter App to life. Backend live. All Flutter milestones M1–M6 + M10 done. V0 Alpha at the final polish gate.
       </p>
       <div class="wai-hero-badges">
         <span class="wai-badge wai-badge-green">✓ Backend 100% Live</span>
-        <span class="wai-badge wai-badge-green">✓ M1 · M2 · M3 · M4 · M5 · M10 Done</span>
-        <span class="wai-badge wai-badge-gold">⚡ M6 Active — Door &amp; Proof System</span>
-        <span class="wai-badge wai-badge-blue">🎯 V0 Gate at M6 Complete</span>
+        <span class="wai-badge wai-badge-green">✓ M1 · M2 · M3 · M4 · M5 · M6 · M10 Done</span>
+        <span class="wai-badge wai-badge-green">✓ Stripe · RBAC · Auth Complete</span>
+        <span class="wai-badge wai-badge-gold">⚡ V0 Alpha — Final Polish (3 tickets)</span>
       </div>
     </section>
 
@@ -38,16 +38,16 @@
           <span class="wai-metric-label">Backend Days Completed</span>
         </div>
         <div>
-          <span class="wai-metric-value">6</span>
+          <span class="wai-metric-value wai-metric-green">7</span>
           <span class="wai-metric-label">Flutter Milestones Done</span>
         </div>
         <div>
-          <span class="wai-metric-value wai-metric-gold">1</span>
-          <span class="wai-metric-label">Milestone Active Now</span>
+          <span class="wai-metric-value wai-metric-gold">3</span>
+          <span class="wai-metric-label">V0 Polish Tickets Left</span>
         </div>
         <div>
-          <span class="wai-metric-value">~10</span>
-          <span class="wai-metric-label">Days to V0 Prototype</span>
+          <span class="wai-metric-value wai-metric-green">~95%</span>
+          <span class="wai-metric-label">V0 Alpha Complete</span>
         </div>
         <div>
           <span class="wai-metric-value">10</span>
@@ -74,7 +74,7 @@
               <span class="prog-track-icon">🏗</span>
               <div>
                 <div class="prog-track-title">Backend &amp; Infrastructure</div>
-                <div class="prog-track-sub">Vultr VPS · Dify · Hono Gateway · Firebase Bridge · Security</div>
+                <div class="prog-track-sub">Vultr VPS · Dify · Hono Gateway · Firebase Bridge · Cloudflare Tunnel · Stripe · RBAC · Auth</div>
               </div>
               <span class="prog-status-pill prog-pill-done">ALL DONE ✅</span>
             </div>
@@ -160,10 +160,69 @@
               </ul>
             </div>
 
+            <div class="prog-sprint-row prog-done">
+              <div class="prog-sprint-head">
+                <span class="prog-sprint-tag prog-tag-m1">DEPLOY</span>
+                <span class="prog-sprint-name">Cloudflare Tunnel + Public API</span>
+                <span class="prog-sprint-days">~1 day</span>
+                <span class="prog-status-dot prog-dot-green">✓</span>
+              </div>
+              <ul class="prog-sprint-items">
+                <li>api.wakeupwarrior.ai live via Cloudflare Tunnel (zero open ports)</li>
+                <li>WARAI-127: Cloudflare Tunnel gateway routing complete</li>
+                <li>WARAI-128: Public DNS + TLS termination via Cloudflare</li>
+                <li>WARAI-130: Flutter app wired to production API endpoint</li>
+              </ul>
+            </div>
+
+            <div class="prog-sprint-row prog-done">
+              <div class="prog-sprint-head">
+                <span class="prog-sprint-tag prog-tag-m1">STRIPE</span>
+                <span class="prog-sprint-name">Stripe Integration + RBAC</span>
+                <span class="prog-sprint-days">~2 days</span>
+                <span class="prog-status-dot prog-dot-green">✓</span>
+              </div>
+              <ul class="prog-sprint-items">
+                <li>Subscription tiers defined (WARAI-124) — Warrior, Council, Savage</li>
+                <li>RBAC system built — role-based access control across all endpoints (WARAI-125)</li>
+                <li>Stripe sandbox + webhook handlers live (WARAI-137)</li>
+                <li>Stripe integration wired to Firebase user profiles (WARAI-129)</li>
+              </ul>
+            </div>
+
+            <div class="prog-sprint-row prog-done">
+              <div class="prog-sprint-head">
+                <span class="prog-sprint-tag prog-tag-m1">AUTH</span>
+                <span class="prog-sprint-name">Auth System Hardening</span>
+                <span class="prog-sprint-days">~1 day</span>
+                <span class="prog-status-dot prog-dot-green">✓</span>
+              </div>
+              <ul class="prog-sprint-items">
+                <li>Google OAuth sign-in fixed (WARAI-138, WARAI-139)</li>
+                <li>Email/password auth complete (WARAI-149)</li>
+                <li>Firebase token wired through Gateway (WARAI-132)</li>
+                <li>ProviderScope crash fixed · null check crash fixed</li>
+              </ul>
+            </div>
+
+            <div class="prog-sprint-row prog-done">
+              <div class="prog-sprint-head">
+                <span class="prog-sprint-tag prog-tag-m1">BRAND</span>
+                <span class="prog-sprint-name">Warrior Branding &amp; Design System v2</span>
+                <span class="prog-sprint-days">~1 day</span>
+                <span class="prog-status-dot prog-dot-green">✓</span>
+              </div>
+              <ul class="prog-sprint-items">
+                <li>Forge Red palette migration — replaces Navy/Gold for app UI (WARAI-147)</li>
+                <li>Animated Veo 3 shield splash screen (WARAI-142)</li>
+                <li>Warrior app icon + launcher icons (WARAI-143, WARAI-144)</li>
+              </ul>
+            </div>
+
             <div class="prog-total-bar">
               <span>Backend Total</span>
-              <span class="prog-total-days">~11 days of work</span>
-              <span class="prog-total-note">(delivered in ~5 real days, parallel sessions)</span>
+              <span class="prog-total-days">~15+ days of work</span>
+              <span class="prog-total-note">(Cloudflare, Stripe, Auth, Branding added post-SP5)</span>
             </div>
           </div>
 
@@ -175,7 +234,7 @@
                 <div class="prog-track-title">Flutter App (SP1)</div>
                 <div class="prog-track-sub">OMI fork · Warrior UI · 10 Feature Milestones · V0 Target</div>
               </div>
-              <span class="prog-status-pill prog-pill-active">IN BUILD 🔄</span>
+              <span class="prog-status-pill prog-pill-done">V0 ALPHA GATE ✅</span>
             </div>
 
             <!-- DONE -->
@@ -275,20 +334,20 @@
               </ul>
             </div>
 
-            <!-- ACTIVE — M6 coding now -->
-            <div class="prog-sprint-row prog-active">
+            <!-- DONE — M6 complete Feb 25, 2026 -->
+            <div class="prog-sprint-row prog-done">
               <div class="prog-sprint-head">
-                <span class="prog-sprint-tag prog-tag-active">M6</span>
+                <span class="prog-sprint-tag prog-tag-m1">M6</span>
                 <span class="prog-sprint-name">Door &amp; Proof System</span>
                 <span class="prog-sprint-days">~3-4 days</span>
-                <span class="prog-status-dot prog-dot-gold">⚡</span>
+                <span class="prog-status-dot prog-dot-green">✓</span>
               </div>
               <ul class="prog-sprint-items">
                 <li>Door creation — 5 required fields, no skip button</li>
                 <li>Proof types: Photo · Screenshot · Voice Memo · Self-Attest</li>
                 <li>Proof upload to Cloudflare R2</li>
                 <li>Green = proof captured · Red = no proof (binary truth)</li>
-                <li>JIRA: <a href="https://wakeupwarrior.atlassian.net/browse/WARAI-92" target="_blank" class="prog-jira-link">WARAI-92</a> <strong class="prog-v0-flag">← V0 COMPLETE HERE</strong></li>
+                <li>JIRA: <a href="https://wakeupwarrior.atlassian.net/browse/WARAI-92" target="_blank" class="prog-jira-link">WARAI-92</a> <strong class="prog-v0-flag">✓ Fertig — Feb 25, 2026</strong></li>
               </ul>
             </div>
 
@@ -296,11 +355,26 @@
               <div class="prog-v0-gate-inner">
                 <span class="prog-v0-icon">🏁</span>
                 <div>
-                  <div class="prog-v0-title">V0 Alpha Prototype Gate</div>
-                  <div class="prog-v0-sub">5 users · cold start &lt;3s · 80% session rate · 95% audio capture</div>
+                  <div class="prog-v0-title">V0 Alpha Prototype Gate — Final Polish</div>
+                  <div class="prog-v0-sub">5 users · cold start &lt;3s · 80% session rate · 95% audio capture · 3 polish tickets remaining</div>
                 </div>
                 <a href="https://wakeupwarrior.atlassian.net/browse/WARAI-98" target="_blank" class="prog-jira-btn">WARAI-98</a>
               </div>
+            </div>
+
+            <!-- V0 POLISH — 3 remaining tickets -->
+            <div class="prog-sprint-row prog-active">
+              <div class="prog-sprint-head">
+                <span class="prog-sprint-tag prog-tag-active">V0 POLISH</span>
+                <span class="prog-sprint-name">Final Alpha Polish</span>
+                <span class="prog-sprint-days">3 tickets</span>
+                <span class="prog-status-dot prog-dot-gold">⚡</span>
+              </div>
+              <ul class="prog-sprint-items">
+                <li>WARAI-154: Fix 404 — align Flutter gateway client with deployed route contract</li>
+                <li>WARAI-152: Fix X button on coaching screen (Under Review)</li>
+                <li>WARAI-151: Strip OMI branding from onboarding screens (Under Review)</li>
+              </ul>
             </div>
 
             <!-- POST V0 -->
@@ -400,7 +474,7 @@
           <div class="prog-arch-box prog-arch-flutter">
             <div class="prog-arch-box-label">Flutter App</div>
             <div class="prog-arch-box-sub">iOS &amp; Android · M1–M10</div>
-            <div class="prog-arch-box-status prog-status-building">Building</div>
+            <div class="prog-arch-box-status prog-status-building">V0 Alpha · 95%</div>
           </div>
           <div class="prog-arch-arrow">↓<br><span>Firebase Auth Token</span></div>
           <div class="prog-arch-box prog-arch-gateway">

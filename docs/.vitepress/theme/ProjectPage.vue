@@ -12,10 +12,10 @@
         What you are about to browse is the complete output of the Warrior AI Readiness Sprint — six department sessions, two days, one fully scoped and documented <strong>$120,000 project</strong>. Architecture decisions, QA criteria, security posture, milestone plan, and active ticket backlog. All of it produced before a single line of production code was written.
       </p>
       <div class="wai-hero-badges">
-        <span class="wai-badge wai-badge-gold">⚡ Sprint Output — March 2026</span>
-        <span class="wai-badge wai-badge-green">✓ Backend Live on Vultr</span>
-        <span class="wai-badge wai-badge-blue">☁ 7 Agents Running</span>
-        <span class="wai-badge wai-badge-gold">🔒 Security Audit Complete</span>
+        <span class="wai-badge wai-badge-green">✓ All M1–M6 + M10 Done</span>
+        <span class="wai-badge wai-badge-green">✓ api.wakeupwarrior.ai Live</span>
+        <span class="wai-badge wai-badge-blue">☁ 5 AI Agents + Stripe + RBAC</span>
+        <span class="wai-badge wai-badge-gold">🏁 V0 Alpha — 3 Tickets from Gate</span>
       </div>
     </section>
 
